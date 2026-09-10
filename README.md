@@ -14,21 +14,21 @@
 
 ---
 
-## O que é o APORIA?
+## What is APORIA?
 
-O **APORIA** é uma arquitetura cognitiva de **governação em tempo de execução e segurança científica** desenhada para agentes de inteligência artificial autónomos.
+**APORIA** is an autonomous agent cognitive architecture and **scientific runtime safety governance system**.
 
-Quando agentes de IA operam no mundo real — invocando ferramentas, modificando bases de dados, enviando e-mails ou executando código — precisam de salvaguardas rigorosas. O APORIA atua como um **plano de controlo independente**, garantindo que qualquer ação de um agente é auditada, avaliada quanto ao risco e sujeita a interruptores de emergência (*kill switches*) que **falham sempre para o estado seguro (*fail-closed*)**.
+When AI agents operate in the real world — invoking external tools, querying databases, dispatching emails, or executing code — they require strict runtime guardrails. APORIA acts as an **independent control plane**, ensuring that every agent action is audited, risk-assessed, and governed by **fail-closed kill switches** that guarantee safety under unexpected failures or adversarial conditions.
 
-Construído com uma filosofia de **zero dependências externas** (utiliza exclusivamente a biblioteca padrão de Python 3.9+), o APORIA é **100% harness-agnostic**: funciona de forma transparente com qualquer modelo de linguagem e qualquer framework de agentes (Antigravity, LangChain, AutoGen, CrewAI ou gateways HTTP proprietários).
+Engineered with a strict **zero external dependencies** philosophy (built 100% on the Python 3.9+ standard library), APORIA is **completely harness-agnostic**: it works seamlessly across any LLM and any agent orchestration framework, including Antigravity, LangChain, AutoGen, CrewAI, or custom HTTP gateways.
 
 ---
 
-## Pilares Fundamentais
+## Core Architecture & Pillars
 
 ```
                  ┌───────────────────────────────────────┐
-                 │       Agente Autónomo / LLM           │
+                 │        Autonomous Agent / LLM         │
                  │  (Antigravity / LangChain / CrewAI)   │
                  └──────────────────┬────────────────────┘
                                     │ (JWT HS256)
@@ -38,78 +38,78 @@ Construído com uma filosofia de **zero dependências externas** (utiliza exclus
 │                                                                        │
 │   ┌─────────────────────┐    ┌─────────────────────────────────────┐   │
 │   │   Control Plane     │    │        Effect Compiler              │   │
-│   │  • Kill Switches    │    │  • Avaliação de Risco (0.05 - 0.95) │   │
-│   │  • Fail-Closed      │    │  • Portões de Aprovação             │   │
-│   │  • Resolução Modos  │    │  • Compromissos Criptográficos      │   │
+│   │  • Kill Switches    │    │  • Risk Assessment (0.05 - 0.95)    │   │
+│   │  • Fail-Closed      │    │  • Approval Gates                   │   │
+│   │  • Mode Resolution  │    │  • Cryptographic Commitments        │   │
 │   └──────────┬──────────┘    └──────────────────┬──────────────────┘   │
 │              │                                  │                      │
 │              ▼                                  ▼                      │
 │   ┌────────────────────────────────────────────────────────────────┐   │
 │   │                      Causal Event Fabric                       │   │
-│   │  • Relógio Lógico Híbrido (HLC)   • Ingestão Idempotente       │   │
-│   │  • DAG Causal & Linhagem          • Hashing Canónico SHA-256   │   │
+│   │  • Hybrid Logical Clock (HLC)     • Idempotent Ingestion       │   │
+│   │  • Causal DAG & Lineage           • Canonical SHA-256 Hashing  │   │
 │   └──────────────────────────────┬─────────────────────────────────┘   │
 │                                  │                                     │
 │                                  ▼                                     │
 │   ┌────────────────────────────────────────────────────────────────┐   │
-│   │               Autobiografia & Continuidade                     │   │
-│   │  • Cadeia Autobiográfica Verificada   • Snapshots de Identidade│   │
+│   │               Autobiography & Continuity                       │   │
+│   │  • Verified Narrative Chains      • Identity Snapshots         │   │
 │   └────────────────────────────────────────────────────────────────┘   │
 └────────────────────────────────────────────────────────────────────────┘
 ```
 
-### 1. Plano de Controlo Independente (*Fail-Closed Safety*)
-Disponibiliza 6 interruptores de emergência independentes (`global`, `tenant`, `runtime_influence`, `memory_writes`, `ontology`, `hirt_advisory`). Se ocorrer qualquer falha na base de dados ou na rede, o sistema desativa automaticamente operações de risco por omissão.
+### 1. Independent Control Plane (*Fail-Closed Safety*)
+Features 6 independent kill switches (`global`, `tenant`, `runtime_influence`, `memory_writes`, `ontology`, `hirt_advisory`). Upon database unavailability, malformed payloads, or internal errors, the system fails closed to the safe, engaged state.
 
-### 2. Compilação Determinística de Efeitos
-Antes de executar qualquer ferramenta, a ação é compilada com um cálculo de risco determinístico (de `0.05` para leituras seguras até `0.95` para efeitos externos irreversíveis). Ações críticas exigem aprovação explícita através de compromissos criptográficos imutáveis.
+### 2. Deterministic Effect Compilation & Risk Scoring
+Prior to tool execution, each proposed action is compiled with deterministic risk assessment (ranging from `0.05` for safe reads to `0.95` for irreversible external side-effects). Critical operations require immutable cryptographic authority commitments and approval gates.
 
-### 3. *Causal Event Fabric* com Relógio Híbrido (HLC)
-Registo de eventos do agente num grafo acíclico direcionado (DAG). Através de um *Hybrid Logical Clock*, garante ordenação causal estrita, deteção de concorrência e eliminação de duplicados com *hashing* determinístico SHA-256.
+### 3. Causal Event Fabric with Hybrid Logical Clock (HLC)
+Tracks all agent runtime events within a causal directed acyclic graph (DAG). Uses Hybrid Logical Clocks to enforce strict causal ordering, concurrent event detection, and deduplication via byte-exact canonical SHA-256 hashing.
 
-### 4. Continuidade de Identidade e Autobiografia
-Regista a trajetória evolutiva do agente em cadeias autobiográficas com assinaturas criptográficas encadeadas, permitindo exportar evidências formais de que o comportamento do agente se manteve alinhado com as políticas estabelecidas.
+### 4. Identity Continuity & Autobiographical Memory
+Maintains the agent's historical trajectory in hash-chained autobiographical ledgers with cryptographic signatures, enabling export of formal, tamper-evident proofs of policy alignment.
 
-### 5. Zero Dependências Externas
-Zero bibliotecas `pip`. Toda a criptografia (HMAC-SHA256, tokens JWT, canonicalização JSON, framing binário) é implementada nativamente em Python standard library.
+### 5. Zero External Dependencies & Universal Interoperability
+Zero `pip` packages. All cryptographic primitives (HMAC-SHA256, JWT encoding/decoding, canonical JSON serialization, big-endian wire framing) are implemented directly in Python standard library.
 
 ---
 
-## Como Começar
+## Getting Started
 
-### Pré-requisitos
-- Python 3.9 ou superior (sem necessidade de `pip install` de pacotes externos)
+### Prerequisites
+- Python 3.9+ (No `pip install` or virtual environment required)
 
-### Configuração
-Copia o ficheiro de exemplo de variáveis de ambiente:
+### Configuration
+Copy the environment template:
 ```bash
 cp .env.example .env
 ```
 
-### Inicialização Rápida em Python
+### Quick Start in Python
 
 ```python
 from aporia.client import AporiaClient
 from aporia.infrastructure.db import get_connection
 from aporia.infrastructure.schema import SCHEMA_SQL
 
-# 1. Conectar à base de dados (em memória ou SQLite local)
-conn = get_connection()
+# 1. Connect to database (in-memory SQLite or persistent file)
+conn = get_connection()  # Reads APORIA_DB_PATH or defaults to :memory:
 conn.executescript(SCHEMA_SQL)
 
-# 2. Inicializar o cliente APORIA
-client = AporiaClient(pdo=conn, secret="o-teu-bridge-secret")
+# 2. Initialize APORIA client
+client = AporiaClient(pdo=conn, secret="your-bridge-secret")
 assert client.is_healthy()
 
-# 3. Consultar o plano de controlo
+# 3. Query independent control plane
 snapshot = client.controls.snapshot(tenant_id=1)
 print(snapshot)
 # {'global': False, 'tenant': False, 'runtime_influence': False, ...}
 ```
 
-### Autenticação Universal com Qualquer Framework
+### Universal Agent Authentication (Any Framework)
 
-Qualquer agente pode comunicar com o APORIA através de tokens JWT padrão:
+Any autonomous agent framework can authenticate with APORIA using standard HMAC-SHA256 JWT tokens:
 
 ```python
 from aporia.crypto import jwt_encode
@@ -117,79 +117,79 @@ import time
 
 token = jwt_encode(
     {
-        "iss": "meu-framework-de-agentes",  # Ex: "langchain", "crewai", "antigravity"
+        "iss": "my-agent-framework",  # e.g., "langchain", "crewai", "antigravity"
         "aud": "aporia-runtime",
         "tenant_id": 1,
-        "agent_session_id": "sessao-001",
+        "agent_session_id": "session-001",
         "exp": int(time.time()) + 3600,
     },
-    key="o-teu-bridge-secret",
+    key="your-bridge-secret",
 )
 ```
 
 ---
 
-## Ferramentas CLI Disponíveis
+## CLI Automation Tools
 
-O projeto inclui utilitários de linha de comandos prontos a usar:
+APORIA ships with production-ready command-line utilities:
 
-| Script | Descrição | Exemplo de Uso |
+| Tool | Purpose | Example |
 | :--- | :--- | :--- |
-| **`aporia_health.py`** | Verificação de integridade e snapshot do plano de controlo | `python3 .agents/plugins/aporia/scripts/aporia_health.py` |
-| **`aporia_controls.py`** | Consulta de kill switches e resolução de modo por tenant | `python3 .agents/plugins/aporia/scripts/aporia_controls.py --tenant-id 1` |
-| **`aporia_ingest.py`** | Ingestão causal de eventos com hashing SHA-256 e relógio HLC | `python3 .agents/plugins/aporia/scripts/aporia_ingest.py --tenant-id 1 --event-kind turn.started` |
-| **`aporia_export.py`** | Exportação verificada da cadeia autobiográfica | `python3 .agents/plugins/aporia/scripts/aporia_export.py --tenant-id 1` |
+| **`aporia_health.py`** | Database health check and control plane snapshot | `python3 .agents/plugins/aporia/scripts/aporia_health.py` |
+| **`aporia_controls.py`** | Query kill switches and runtime mode per tenant | `python3 .agents/plugins/aporia/scripts/aporia_controls.py --tenant-id 1` |
+| **`aporia_ingest.py`** | Ingest causal events with canonical SHA-256 and HLC | `python3 .agents/plugins/aporia/scripts/aporia_ingest.py --tenant-id 1 --event-kind turn.started` |
+| **`aporia_export.py`** | Export cryptographically verified autobiography chain | `python3 .agents/plugins/aporia/scripts/aporia_export.py --tenant-id 1` |
 
 ---
 
-## Integração como Plugin Antigravity
+## Antigravity Plugin & Skills
 
-O APORIA está empacotado como um plugin nativo para agentes **Antigravity** em `.agents/plugins/aporia/`, dispondo de 3 *skills* especializadas com *Progressive Disclosure*:
+APORIA is packaged as a native Antigravity agent plugin under `.agents/plugins/aporia/`, providing 3 specialized skills with **Progressive Disclosure**:
 
-1. **`aporia`**: Skill router de configuração rápida, verificação de saúde e visão geral.
-2. **`aporia-governance`**: Invocação de kill switches, consulta de modos operacionais (`disabled`, `advisory`, `guarded_reversible`) e compilação de efeitos.
-3. **`aporia-observe`**: Ingestão de telemetria, análise de DAG causal e auditoria comportamental.
+- **`aporia`**: Main router skill for initial setup, architecture guidance, and health checks.
+- **`aporia-governance`**: Control plane queries, kill switches, runtime mode resolution (`guarded_reversible`), and tool effect compilation.
+- **`aporia-observe`**: Event telemetry ingestion, causal DAG exploration, and autobiographical audit trails.
 
 ---
 
-## Estrutura do Repositório
+## Repository Layout
 
 ```text
 aporia/
-├── aporia/                      # Pacote principal de governação cognitiva
-│   ├── api/                     # Adaptadores de endpoints HTTP
-│   ├── application/             # Resolução de modos de runtime e exportação
-│   ├── crypto.py                # Primitivas criptográficas puras (SHA-256, HMAC, JWT)
-│   ├── harness/                 # Adaptadores plugáveis de frameworks de agentes
+├── aporia/                      # Core cognitive architecture & governance package
+│   ├── api/                     # HTTP endpoint adapters (AporiaEventApiEndpoint)
+│   ├── application/             # Runtime mode resolution & autobiography export
+│   ├── crypto.py                # Pure standard library cryptography (SHA-256, HMAC, JWT)
+│   ├── harness/                 # Pluggable framework adapters (GenericHarness, Registry)
 │   ├── infrastructure/          # Control plane, event fabric, effect compilers, SQLite
-│   ├── client.py                # Interface de alto nível AporiaClient
-│   └── config.py                # Gestão de variáveis de ambiente
-├── .agents/plugins/aporia/      # Plugin Antigravity (Skills, Scripts, Regras)
-├── tests/                       # Suíte completa de 162 testes unitários
-├── experiments/                 # Protocolos empíricos e modelos formais
-├── platform/                    # Migrações de base de dados e pipeline de qualificação
-├── AGENTS.md                    # Instruções obrigatórias para agentes autónomos
-├── CLAUDE.md                    # Diretrizes operacionais para Claude Code
-└── README.md                    # Apresentação do projeto
+│   ├── client.py                # High-level AporiaClient interface
+│   └── config.py                # Environment configuration loader
+├── .agents/plugins/aporia/      # Antigravity plugin (Skills, Scripts, Rules)
+├── tests/                       # Comprehensive unit test suite (162 tests)
+├── experiments/                 # Empirical protocols & formal verification
+├── platform/                    # Database migrations & qualification pipelines
+├── AGENTS.md                    # Mandatory agent instructions & invariants
+├── CLAUDE.md                    # Claude Code operational directives
+└── README.md                    # Project documentation
 ```
 
 ---
 
-## Testes e Verificação
+## Verification & Testing
 
-A integridade do sistema é validada por **162 testes automatizados** com cobertura profunda de invariantes matemáticos e criptográficos:
+Every invariant, state transition, and cryptographic commitment is verified by **162 automated unit tests**:
 
 ```bash
 python3 -m unittest discover tests -p "test_*.py"
 ```
 
 ```text
-Ran 162 tests in 6.475s
+Ran 162 tests in 6.563s
 OK (skipped=2)
 ```
 
 ---
 
-## Licença
+## License
 
-Distribuído sob a licença MIT. Consulta `LICENSE` para mais detalhes.
+Distributed under the MIT License. See [LICENSE](LICENSE) for details.
