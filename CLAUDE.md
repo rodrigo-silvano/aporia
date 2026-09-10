@@ -70,7 +70,7 @@ aporia/
 ```
 
 - **Core domain logic**: `aporia/` contains pure domain logic, no I/O beyond SQLite.
-- **Antigravity plugin**: `.agents/plugins/aporia/` contains skills (`aporia`, `aporia-governance`, `aporia-observe`), rules (`AGENTS.md`), and automation scripts.
+- **Agent integration layer**: `.agents/plugins/aporia/` contains skills (`aporia`, `aporia-governance`, `aporia-observe`), rules (`AGENTS.md`), and automation scripts.
 - **Tests**: `tests/` mirrors `aporia/` structure.
 
 ---

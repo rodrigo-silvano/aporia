@@ -29,7 +29,7 @@ These rules and guidelines are mandatory for any autonomous agent (Antigravity, 
 - **`aporia/harness/`**: Pluggable agent framework adapters. Each adapter is independent.
 - **`aporia/infrastructure/`**: Persistence, event fabric, ontology, and ecological programs.
 - **`aporia/application/`**: Application services (mode resolution, context, export).
-- **`.agents/plugins/aporia/`**: Antigravity plugin with skills, rules, and CLI automation scripts.
+- **`.agents/plugins/aporia/`**: Agent integration layer with skills, rules, and CLI automation scripts.
 - **`tests/`**: Unit and integration tests. Mirror the `aporia/` structure.
 - **`experiments/`**: Research protocols. Sealed experiments must not be modified.
 - **`platform/`**: Deployment, migrations, and qualification. Operational scripts.

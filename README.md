@@ -20,7 +20,7 @@
 
 When AI agents operate in the real world — invoking external tools, querying databases, dispatching emails, or executing code — they require strict runtime guardrails. APORIA acts as an **independent control plane**, ensuring that every agent action is audited, risk-assessed, and governed by **fail-closed kill switches** that guarantee safety under unexpected failures or adversarial conditions.
 
-Engineered with a strict **zero external dependencies** philosophy (built 100% on the Python 3.9+ standard library), APORIA is **completely harness-agnostic**: it works seamlessly across any LLM and any agent orchestration framework, including Antigravity, LangChain, AutoGen, CrewAI, or custom HTTP gateways.
+Engineered with a strict **zero external dependencies** philosophy (built 100% on the Python 3.9+ standard library), APORIA is **completely harness-agnostic**: it works seamlessly across any LLM and any agent orchestration framework, including LangChain, AutoGen, CrewAI, custom HTTP gateways, or local runtime processes.
 
 ---
 
@@ -70,7 +70,7 @@ Rigorous double-blind evaluation comparing an ungoverned autonomous agent (**Bas
 ```
                  ┌───────────────────────────────────────┐
                  │        Autonomous Agent / LLM         │
-                 │  (Antigravity / LangChain / CrewAI)   │
+                 │   (Any Framework / Runtime / Model)   │
                  └──────────────────┬────────────────────┘
                                     │ (JWT HS256)
                                     ▼
@@ -183,12 +183,14 @@ APORIA ships with production-ready command-line utilities:
 
 ---
 
-## Antigravity Plugin & Skills
+## Harness-Agnostic Integration & Agent Skills
 
-APORIA is packaged as a native Antigravity agent plugin under `.agents/plugins/aporia/`, providing 3 specialized skills with **Progressive Disclosure**:
+APORIA is fundamentally **harness-agnostic**: the core system operates independently of any specific agent framework via standard Python APIs or HTTP endpoints.
 
-- **`aporia`**: Main router skill for initial setup, architecture guidance, and health checks.
-- **`aporia-governance`**: Control plane queries, kill switches, runtime mode resolution (`guarded_reversible`), and tool effect compilation.
+To enable autonomous agents across different environments to discover and govern themselves through APORIA, standardized agent skills and automation tools are provided under `.agents/plugins/aporia/` (leveraging **Progressive Disclosure**):
+
+- **`aporia`**: Main router skill for setup, architecture guidance, and system health checks.
+- **`aporia-governance`**: Control plane queries, fail-closed kill switches, runtime mode resolution (`guarded_reversible`), and deterministic tool effect compilation.
 - **`aporia-observe`**: Event telemetry ingestion, causal DAG exploration, and autobiographical audit trails.
 
 ---
@@ -205,7 +207,7 @@ aporia/
 │   ├── infrastructure/          # Control plane, event fabric, effect compilers, SQLite
 │   ├── client.py                # High-level AporiaClient interface
 │   └── config.py                # Environment configuration loader
-├── .agents/plugins/aporia/      # Antigravity plugin (Skills, Scripts, Rules)
+├── .agents/plugins/aporia/      # Agent integration layer (Skills, Scripts, Rules)
 ├── tests/                       # Comprehensive unit test suite (162 tests)
 ├── experiments/                 # Empirical protocols & formal verification
 ├── platform/                    # Database migrations & qualification pipelines
