@@ -1,0 +1,12 @@
+{
+  "protocol_key": "aporia_generalization_r3",
+  "status": "sealed",
+  "sealed_at": "2026-08-22T05:04:37Z",
+  "code_commitment": "69179639c3ae32488879777449d14a259b8c30e3d512765a2ede1ca8f1106ab4",
+  "preregistration_sha256": "aba6e7b235464023a216667282a217a703929e3efef12ef2bc2f7732d720a5b4",
+  "sealed_file_count": 13,
+  "changes_after_sealing_allowed": false,
+  "development_execution_limit": 1,
+  "confirmation_execution_limit": 1,
+  "production_allowed": false
+}

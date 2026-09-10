@@ -1,0 +1,43 @@
+CREATE TABLE IF NOT EXISTS `aporia_independent_control_switches` (
+  `tenant_id` bigint unsigned NOT NULL,
+  `switch_name` varchar(32) NOT NULL,
+  `engaged` tinyint(1) NOT NULL DEFAULT 0,
+  `revision` int unsigned NOT NULL DEFAULT 1,
+  `changed_by_user_id` bigint unsigned NOT NULL,
+  `reason_code` varchar(64) NOT NULL,
+  `created_at` datetime(6) NOT NULL DEFAULT current_timestamp(6),
+  `updated_at` datetime(6) NOT NULL DEFAULT current_timestamp(6) ON UPDATE current_timestamp(6),
+  PRIMARY KEY (`tenant_id`, `switch_name`),
+  CONSTRAINT `chk_aporia_independent_switch_name` CHECK (`switch_name` IN ('global','tenant','runtime_influence','memory_writes','ontology','hirt_advisory')),
+  CONSTRAINT `chk_aporia_independent_switch_state` CHECK (`engaged` IN (0,1))
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+CREATE TABLE IF NOT EXISTS `aporia_independent_control_events` (
+  `id` bigint unsigned NOT NULL AUTO_INCREMENT,
+  `event_id` char(36) NOT NULL,
+  `tenant_id` bigint unsigned NOT NULL,
+  `switch_name` varchar(32) NOT NULL,
+  `state_before` tinyint(1) NOT NULL,
+  `state_after` tinyint(1) NOT NULL,
+  `revision` int unsigned NOT NULL,
+  `event_name` varchar(96) NOT NULL,
+  `event_version` smallint unsigned NOT NULL,
+  `environment` varchar(24) NOT NULL,
+  `stream` varchar(24) NOT NULL,
+  `category` varchar(32) NOT NULL,
+  `component` varchar(64) NOT NULL,
+  `operation_id` char(64) NOT NULL,
+  `actor_type` varchar(32) NOT NULL,
+  `actor_user_id` bigint unsigned NOT NULL,
+  `target_type` varchar(64) NOT NULL,
+  `action_name` varchar(96) NOT NULL,
+  `lifecycle_phase` varchar(32) NOT NULL,
+  `outcome` varchar(32) NOT NULL,
+  `reason_code` varchar(64) NOT NULL,
+  `created_at` datetime(6) NOT NULL DEFAULT current_timestamp(6),
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `uniq_aporia_independent_control_event` (`tenant_id`, `event_id`),
+  UNIQUE KEY `uniq_aporia_independent_control_operation` (`tenant_id`, `operation_id`),
+  KEY `idx_aporia_independent_control_audit` (`tenant_id`, `switch_name`, `created_at`),
+  CONSTRAINT `chk_aporia_independent_control_event` CHECK (`event_name` = 'aporia.control_switch.changed' AND `event_version` = 1 AND `category` = 'audit' AND `component` = 'aporia-independent-control' AND `actor_type` = 'admin' AND `target_type` = 'aporia_control_switch' AND `lifecycle_phase` = 'succeeded' AND `outcome` = 'succeeded')
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;

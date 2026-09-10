@@ -1,0 +1,13 @@
+{
+  "arm_mapping": {
+    "arm-jade": "core_without_aporia",
+    "arm-violet": "core_with_aporia_product_candidate"
+  },
+  "arm_mapping_commitment": "dec06a3498ff82f34d33660892cff37523a94b0154b2014be73c74d63682268d",
+  "g8_consumed": false,
+  "manifest_sha256": "482471ae56ec5c4dcf1a833c87e592ffa084b77a7b620432930df3d1b4dd9075",
+  "participant_runner_sha256": "b142c589cb28c633fba190285d8ac4fa9581bfd59079452e91d8a5b4f81a772c",
+  "result_schema": "aporia-product-result-v1",
+  "run_id": "APORIA_PRODUCT_RC2_RUN_001",
+  "sealed_before_execution": true
+}

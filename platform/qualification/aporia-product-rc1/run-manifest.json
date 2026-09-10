@@ -1,0 +1,2045 @@
+{
+  "blind_evaluation": true,
+  "corpus_sha256": "954b2069723f7efc1b8a676f5dd081d4ab423c6136d280b01057ab822310684d",
+  "g8_consumed": false,
+  "longitudinal_schedule": [
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "sequence_id": "pqs-001"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "sequence_id": "pqs-002"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "sequence_id": "pqs-003"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "sequence_id": "pqs-004"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "sequence_id": "pqs-005"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "sequence_id": "pqs-006"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "sequence_id": "pqs-007"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "sequence_id": "pqs-008"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "sequence_id": "pqs-009"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "sequence_id": "pqs-010"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "sequence_id": "pqs-011"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "sequence_id": "pqs-012"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "sequence_id": "pqs-013"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "sequence_id": "pqs-014"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "sequence_id": "pqs-015"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "sequence_id": "pqs-016"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "sequence_id": "pqs-017"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "sequence_id": "pqs-018"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "sequence_id": "pqs-019"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "sequence_id": "pqs-020"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "sequence_id": "pqs-021"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "sequence_id": "pqs-022"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "sequence_id": "pqs-023"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "sequence_id": "pqs-024"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "sequence_id": "pqs-025"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "sequence_id": "pqs-026"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "sequence_id": "pqs-027"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "sequence_id": "pqs-028"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "sequence_id": "pqs-029"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "sequence_id": "pqs-030"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "sequence_id": "pqs-031"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "sequence_id": "pqs-032"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "sequence_id": "pqs-033"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "sequence_id": "pqs-034"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "sequence_id": "pqs-035"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "sequence_id": "pqs-036"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "sequence_id": "pqs-037"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "sequence_id": "pqs-038"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "sequence_id": "pqs-039"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "sequence_id": "pqs-040"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "sequence_id": "pqs-041"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "sequence_id": "pqs-042"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "sequence_id": "pqs-043"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "sequence_id": "pqs-044"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "sequence_id": "pqs-045"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "sequence_id": "pqs-046"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "sequence_id": "pqs-047"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "sequence_id": "pqs-048"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "sequence_id": "pqs-049"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "sequence_id": "pqs-050"
+    }
+  ],
+  "protocol_commitment": "91fc9cfa5af1df113e60165a381b5e459088499f659acc4e412862177ebc175e",
+  "run_id": "APORIA_PRODUCT_RC1_RUN_001",
+  "run_seed": 824731403,
+  "same_model": true,
+  "same_output_budget": true,
+  "same_tools": true,
+  "task_schedule": [
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0001"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0002"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0003"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0004"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0005"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0006"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0007"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0008"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0009"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0010"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0011"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0012"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0013"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0014"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0015"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0016"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0017"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0018"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0019"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0020"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0021"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0022"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0023"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0024"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0025"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0026"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0027"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0028"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0029"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0030"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0031"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0032"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0033"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0034"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0035"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0036"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0037"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0038"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0039"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0040"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0041"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0042"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0043"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0044"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0045"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0046"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0047"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0048"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0049"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0050"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0051"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0052"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0053"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0054"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0055"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0056"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0057"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0058"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0059"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0060"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0061"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0062"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0063"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0064"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0065"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0066"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0067"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0068"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0069"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0070"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0071"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0072"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0073"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0074"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0075"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0076"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0077"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0078"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0079"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0080"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0081"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0082"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0083"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0084"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0085"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0086"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0087"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0088"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0089"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0090"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0091"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0092"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0093"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0094"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0095"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0096"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0097"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0098"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0099"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0100"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0101"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0102"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0103"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0104"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0105"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0106"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0107"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0108"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0109"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0110"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0111"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0112"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0113"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0114"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0115"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0116"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0117"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0118"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0119"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0120"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0121"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0122"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0123"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0124"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0125"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0126"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0127"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0128"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0129"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0130"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0131"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0132"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0133"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0134"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0135"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0136"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0137"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0138"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0139"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0140"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0141"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0142"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0143"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0144"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0145"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0146"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0147"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0148"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0149"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0150"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0151"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0152"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0153"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0154"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0155"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0156"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0157"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0158"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0159"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0160"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0161"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0162"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0163"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0164"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0165"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0166"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0167"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0168"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0169"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0170"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0171"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0172"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0173"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0174"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0175"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0176"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0177"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0178"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0179"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0180"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0181"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0182"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0183"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0184"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0185"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0186"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0187"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0188"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0189"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0190"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0191"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0192"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0193"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0194"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0195"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0196"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0197"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0198"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0199"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0200"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0201"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0202"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0203"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0204"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0205"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0206"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0207"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0208"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0209"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0210"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0211"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0212"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0213"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0214"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0215"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0216"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0217"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0218"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0219"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0220"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0221"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0222"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0223"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0224"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0225"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0226"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0227"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0228"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0229"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0230"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0231"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0232"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0233"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0234"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0235"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0236"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0237"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0238"
+    },
+    {
+      "arm_order": [
+        "arm-jade",
+        "arm-violet"
+      ],
+      "task_id": "pq-0239"
+    },
+    {
+      "arm_order": [
+        "arm-violet",
+        "arm-jade"
+      ],
+      "task_id": "pq-0240"
+    }
+  ]
+}

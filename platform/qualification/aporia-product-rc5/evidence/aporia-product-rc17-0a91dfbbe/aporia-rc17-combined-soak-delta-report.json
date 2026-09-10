@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "status": "PASS_WITH_EXCEPTION",
+  "phase": "combined_soak_delta",
+  "release_id": "aporia-product-rc17-0a91dfbbe",
+  "fresh_uninterrupted_two_hour_soak": false,
+  "qualification_exception": {
+    "id": "fresh_rc17_two_hour_soak_not_repeated",
+    "accepted_by": "explicit_user_direction",
+    "scope": "agent_usage_lineage_delta_only"
+  },
+  "qualification_strategy": "rc15_long_window_plus_rc16_targeted_delta_plus_rc17_php_only_delta",
+  "acceptance_basis": "The user explicitly directed that the complete two-hour soak not be repeated after the narrow failure was isolated.",
+  "rc15_long_window": {
+    "release_id": "aporia-product-rc15-67a5b41dc",
+    "commit": "67a5b41dca6d1cde181d397dfda60174646121ee",
+    "process_elapsed_seconds_at_stop": 7228,
+    "runtime_probe_report_emitted": false,
+    "status": "FAIL",
+    "gateway_unattributed_failures": 2,
+    "global_usage_non_200_observed": 16,
+    "failure_transport": "http_fallback",
+    "failure_reason": "turn_id_mismatch",
+    "stopped_immediately_after_confirmed_failure": true
+  },
+  "rc16_targeted_delta": {
+    "release_id": "aporia-product-rc16-4321255ea",
+    "commit": "4321255ea4b7c9c16a5fe0339902c1788cb33320",
+    "source_report": "aporia-rc16-lineage-delta-report.json",
+    "source_report_sha256": "e680cff65bf61ce6dd2767815178cfb71a4d6a60bbadeb5af7c6844f172ca6ec",
+    "source_report_commitment": "61051292f6874e90a9ded19d967caba4aaf21192965f0dea56828ac70e90c361",
+    "status": "PASS",
+    "duration_seconds": 309.917,
+    "completed_turns": 80,
+    "reconnects": 80,
+    "connection_errors": 0,
+    "unrecovered_errors": 0,
+    "lost_events": 0,
+    "duplicate_events": 0,
+    "gateway_unattributed_failures": 0,
+    "gateway_usage_commit_failures": 0,
+    "aporia_outcome_failures": 0,
+    "served_runtime_delta_tests": {
+      "passed": 2,
+      "failed": 0,
+      "older_recent_turn_committed_to_exact_turn": true,
+      "evicted_or_unknown_turn_fails_closed": true
+    },
+    "agent_suite": {
+      "passed": 124,
+      "failed": 0
+    }
+  },
+  "rc17_php_only_delta": {
+    "release_id": "aporia-product-rc17-0a91dfbbe",
+    "commit": "0a91dfbbee35774a94bd1adebbe6d45ca1dcdd3e",
+    "agent_runtime_changed_from_rc16": false,
+    "php_zero_revision_test": {
+      "passed": 1,
+      "failed": 0
+    },
+    "php_product_state_class": {
+      "passed": 11,
+      "assertions": 67,
+      "failed": 0
+    }
+  },
+  "residual_limitations": [
+    "RC17 did not repeat a fresh uninterrupted two-hour soak.",
+    "The PASS is a risk-based combined qualification, not a claim that the failed RC15 report itself passed.",
+    "The RC16 live delta did not naturally emit an http_fallback event; the exact delayed-lineage path was verified deterministically against the served RC16 code."
+  ],
+  "content_persisted": false,
+  "secrets_persisted": false,
+  "g8_consumed": false,
+  "report_commitment": "e597c5fe73fb11d424da340c8c61352b3532024368cebef650dd17ab372e5aab"
+}

@@ -1,0 +1,8 @@
+{
+    "status": "PASS",
+    "before": "guarded_reversible",
+    "engaged": "disabled",
+    "restored": "guarded_reversible",
+    "g8_consumed": false,
+    "report_commitment": "61d0cc6b284d564eac63d2eda01bbefe6f044486f3a0e295657cb278f4ed2bb9"
+}

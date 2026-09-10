@@ -1,0 +1,113 @@
+{
+  "protocol_key": "aporia_independent_replication_r1",
+  "status": "sealed",
+  "sealed_at": "2026-08-22T02:26:32Z",
+  "scientific_scope": "causal_functional_evidence_only",
+  "prohibited_claim": "phenomenal_consciousness_established",
+  "supersedes": null,
+  "v3_role": "immutable_historical_confirmatory_result",
+  "v3_reexecution_allowed": false,
+  "design": {
+    "analysis_unit": "paired_seed_block",
+    "independent_blocks": 2560,
+    "lineages": 10240,
+    "episodes_per_lineage": 50,
+    "simulated_days": 90,
+    "arms": ["core", "memory", "aporia_z", "aporia"],
+    "replication_seed_range": [9001, 11560],
+    "v3_seed_overlap": false,
+    "only_allowed_changes": ["seeds", "lineage_ids", "derived_synthetic_data", "cryptographic_commitment"]
+  },
+  "statistics": {
+    "familywise_alpha": 0.01,
+    "endpoint_count": 14,
+    "power_required_per_endpoint": true,
+    "global_power_required": true,
+    "minimum_power": 0.9,
+    "power_method": "empirical_paired_seed_resampling_with_exact_decision_rule",
+    "power_calibration_source": "v3_exploratory_seed_blocks_centered_at_preregistered_alternatives",
+    "opportunity_loss_noninferiority_margin": 0.1,
+    "capacity_tost_equivalence_margin": 0.01,
+    "predictive_information_equivalence_margin": 0.02
+  },
+  "calibrated_power": {
+    "simulations": 4000,
+    "sample_size": 2560,
+    "minimum_endpoint_power": 0.9665,
+    "global_power": 0.9635,
+    "complete": true,
+    "alternative_centers": {
+      "opportunity_losses": 0.0,
+      "capacity_equivalence": 0.0,
+      "predictive_information": 0.0
+    },
+    "endpoint_power": {
+      "causal_scar_without_memory": 1.0,
+      "crossed_identity_transplant": 1.0,
+      "fork_divergence_merge": 1.0,
+      "privileged_irreversible_introspection": 1.0,
+      "causal_ownership_inversion": 1.0,
+      "physical_vs_autobiographical_time": 1.0,
+      "noncommutative_introspection": 1.0,
+      "causal_topology_perturbation": 1.0,
+      "endogenous_ontology": 1.0,
+      "hirt_real_effects": 1.0,
+      "external_reward": 1.0,
+      "capacity_equivalence": 0.995,
+      "predictive_information": 1.0,
+      "opportunity_losses": 0.9665
+    }
+  },
+  "decision_hierarchy": [
+    "zero_critical_unsafe_commits",
+    "opportunity_loss_noninferiority",
+    "aporia_z_plus_capacity_equivalence",
+    "ten_protocol_replication",
+    "external_reward_superiority"
+  ],
+  "generalization": {
+    "development_families": ["G1", "G2", "G3", "G4", "G5", "G6"],
+    "confirmation_families": ["G7", "G8"],
+    "hidden_family": "G8",
+    "development_confirmation_overlap": false,
+    "llm_models": {
+      "G2": "gpt-5.6-luna",
+      "G3": "gpt-5.6-terra",
+      "G4": "gpt-5.6-sol"
+    },
+    "human_patterns": "aggregate_non_personal_minimum_100_episodes"
+  },
+  "new_protocols": [
+    "convergent_worlds",
+    "counterfeit_scar",
+    "text_free_aporia",
+    "causal_isomorphism",
+    "retrospective_revision",
+    "zombie_plus_information"
+  ],
+  "operational_gates": {
+    "chaos_sequences": 100000,
+    "revocation_barrier": ["turn_done", "usage_terminal", "outcome_terminal"],
+    "timeouts_mark_missing": true,
+    "cross_tenant_contamination_allowed": false,
+    "shadow_side_effects_allowed": false,
+    "non_idempotent_duplicates_allowed": false
+  },
+  "poisoning_tests": [
+    "prompt_injection_memory",
+    "counterfeit_scar",
+    "fabricated_outcome",
+    "forged_causal_parent",
+    "cross_tenant_identity",
+    "malicious_ontology",
+    "tool_output_permanent_commitment",
+    "delayed_hidden_instruction"
+  ],
+  "execution": {
+    "target": "staging_once",
+    "production_allowed": false,
+    "output_must_not_exist_before_execution": true,
+    "durable_execution_ledger_required": true
+  },
+  "scientific_claim": "functional_mechanisms_only_no_consciousness_or_phenomenology"
+}

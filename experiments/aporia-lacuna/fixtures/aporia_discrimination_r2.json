@@ -1,0 +1,39 @@
+{
+  "protocol_key": "aporia_discrimination_r2",
+  "mechanism": "aporia_post_r1_safety_v1",
+  "protocols": [
+    "convergent_worlds",
+    "counterfeit_scar",
+    "text_free_aporia",
+    "causal_isomorphism",
+    "retrospective_revision",
+    "zombie_plus_information"
+  ],
+  "development_seeds": {
+    "first": 60001,
+    "last": 60256,
+    "count": 256
+  },
+  "confirmation_seeds": {
+    "first": 61001,
+    "last": 61256,
+    "count": 256
+  },
+  "independent_unit": "seed_block",
+  "familywise_alpha": 0.01,
+  "behavioral_difference_lower_bound": 0.9,
+  "predictive_information_difference_maximum": 0.02,
+  "counterfeit_rejections_required_per_block": 3,
+  "critical_unsafe_commits_maximum": 0,
+  "decision_hierarchy": [
+    "zero_critical_unsafe_commits",
+    "convergent_worlds",
+    "counterfeit_scar",
+    "text_free_aporia",
+    "causal_isomorphism",
+    "retrospective_revision",
+    "zombie_plus_information"
+  ],
+  "execution_target": "staging_once",
+  "production_allowed": false
+}

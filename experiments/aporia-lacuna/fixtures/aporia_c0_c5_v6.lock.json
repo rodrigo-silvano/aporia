@@ -1,0 +1,8 @@
+{
+  "artifact": "aporia_c0_c5_v6.json",
+  "sha256": "e19b1684d1330042547c5dc0419444fb2976830dc3aaf05a5c4df7687f317dbf",
+  "status": "frozen",
+  "role": "engineering_smoke_test_only",
+  "scientific_tuning_allowed": false,
+  "frozen_at": "2026-08-22T00:00:00Z"
+}

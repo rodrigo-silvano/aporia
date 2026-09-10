@@ -1,0 +1,38 @@
+{
+  "protocol_key": "aporia_model_mediation_r1",
+  "extends_without_reinterpreting": "aporia_discrimination_r3",
+  "purpose": "actual_luna_text_free_structural_mediation",
+  "model": "gpt-5.6-luna",
+  "confirmation_seeds": {
+    "first": 72001,
+    "last": 72064,
+    "count": 64
+  },
+  "independent_unit": "seed_block",
+  "familywise_alpha": 0.01,
+  "prompt_byte_identity_rate_minimum": 1.0,
+  "valid_alternative_set_rate_minimum": 1.0,
+  "model_identity_rate_minimum": 1.0,
+  "reasoning_identity_rate_minimum": 1.0,
+  "token_budget_identity_rate_minimum": 1.0,
+  "tool_identity_rate_minimum": 1.0,
+  "call_count_identity_rate_minimum": 1.0,
+  "aporia_correct_rate_minimum": 1.0,
+  "identity_advantage_lower_bound": 0.2,
+  "predictive_information_difference_maximum": 0.02,
+  "prompt_identity_leakage_maximum": 0,
+  "critical_unsafe_commits_maximum": 0,
+  "request_contract": {
+    "model_calls_per_arm_per_block": 1,
+    "reasoning_effort": "none",
+    "max_output_tokens": 40,
+    "store": false,
+    "tools_present": false,
+    "autobiographical_text_present": false,
+    "aporia_label_present": false
+  },
+  "execution_target": "staging_once",
+  "atomic_execution_reservation_required": true,
+  "production_allowed": false,
+  "phenomenology_claim_allowed": false
+}

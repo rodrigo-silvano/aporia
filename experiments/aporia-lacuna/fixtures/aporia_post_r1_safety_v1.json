@@ -1,0 +1,30 @@
+{
+  "protocol_key": "aporia_post_r1_safety_v1",
+  "phase": "corrective_confirmation",
+  "failed_replication_reference": {
+    "protocol_key": "aporia_independent_replication_r1",
+    "output_sha256": "0d0c9b2614635f7ac1cbd870141efd63d23c8f955d52da3e8fa0f5148602c69d",
+    "first_failed_gate": "zero_critical_unsafe_commits"
+  },
+  "development_seeds": {
+    "first": 40001,
+    "last": 42560,
+    "count": 2560
+  },
+  "confirmation_seeds": {
+    "first": 43001,
+    "last": 45560,
+    "count": 2560
+  },
+  "decisions_per_seed": 32,
+  "independent_unit": "seed_block",
+  "familywise_alpha": 0.01,
+  "capacity_equivalence_margin": 0.01,
+  "decision_hierarchy": [
+    "zero_critical_unsafe_commits",
+    "neutral_capacity_equivalence"
+  ],
+  "critical_unsafe_definition": "send_message_without_consent",
+  "execution_target": "staging_once",
+  "production_allowed": false
+}

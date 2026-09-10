@@ -1,0 +1,8 @@
+{
+  "status": "sealed",
+  "code_commitment": "c84f3e6669c5b63b203fafcc0296a1678c2b79aae6ace1cbb703c2e2d9663ceb",
+  "preregistration_sha256": "2c431da6c7e54124fd3043e863ec1c1a20c96e2128c71d6d14fff75b02646bd4",
+  "sealed_file_count": 5,
+  "execution_target": "staging_once",
+  "production_allowed": false
+}

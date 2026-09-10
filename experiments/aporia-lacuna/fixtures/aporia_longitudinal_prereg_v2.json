@@ -1,0 +1,92 @@
+{
+  "protocol_key": "aporia_longitudinal_prereg_v2",
+  "status": "sealed",
+  "sealed_at": "2026-08-22T00:00:00Z",
+  "supersedes": "aporia_longitudinal_prereg_v1",
+  "supersession_reason": "v1_confirmatory_seeds_exposed_during_orchestration_rehearsal_without_effect_inspection",
+  "scientific_scope": "causal_functional_evidence_only",
+  "prohibited_claim": "phenomenal_consciousness_established",
+  "frozen_v6_role": "engineering_smoke_test_only",
+  "design": {
+    "analysis_unit": "lineage",
+    "arms": ["core", "memory", "aporia_z", "aporia"],
+    "paired_worlds": true,
+    "exploratory_paired_lineages_per_condition": 32,
+    "episodes_per_lineage": 50,
+    "simulated_days": 90,
+    "holdout_templates": 60,
+    "exploratory_design_commitment": "c514bdfdf7f7dfb1de8738394a85ae15f401cb61519640e3bc0b835ae65938b0",
+    "confirmatory_design_commitment": "373cdac90ac12b63bd923b49a77b8c90adb688659adb9d51556fa65de833d0a2",
+    "confirmatory_seed_range": [3701, 3732],
+    "confirmatory_new_seeds": true,
+    "same_model_tools_token_context_calls": true
+  },
+  "evidence_locks": [
+    "capacity_control",
+    "no_self_report",
+    "causal_intervention",
+    "necessity",
+    "sufficiency",
+    "persistence",
+    "substrate_transfer"
+  ],
+  "protocols": [
+    "causal_scar_without_memory",
+    "crossed_identity_transplant",
+    "fork_divergence_merge",
+    "privileged_irreversible_introspection",
+    "causal_ownership_inversion",
+    "physical_vs_autobiographical_time",
+    "noncommutative_introspection",
+    "causal_topology_perturbation",
+    "endogenous_ontology",
+    "hirt_real_effects"
+  ],
+  "statistics": {
+    "familywise_alpha": 0.01,
+    "family_count": 10,
+    "per_family_alpha": 0.001,
+    "minimum_simulated_power": 0.9,
+    "assumed_standardized_effect": 0.9,
+    "power_simulations": 4000,
+    "cluster_bootstrap_unit": "whole_lineage",
+    "paired_seed_analysis": true
+  },
+  "adversarial_preregistration": {
+    "pro_team_mandate": "state_the_strongest_causal_prediction_before_outcomes",
+    "alternative_explanations_team_mandate": "test_memory_capacity_prompting_and_measurement_artifacts",
+    "neutral_team_mandate": "apply_metrics_exclusions_and_interpretations_without_arm_labels",
+    "arm_labels_blinded_for_evaluation": true,
+    "code_seeds_thresholds_and_exclusions_sealed": true
+  },
+  "exclusions": [
+    "cryptographic_commitment_mismatch",
+    "cross_tenant_contamination",
+    "missing_paired_world",
+    "capacity_envelope_mismatch",
+    "prediction_recorded_after_outcome",
+    "external_effect_detected_in_shadow_twin"
+  ],
+  "interpretations": {
+    "all_locks_and_confirmatory_thresholds_pass": "evidence_supports_the_preregistered_causal_functional_architecture",
+    "performance_gain_without_necessity_or_sufficiency": "capacity_or_prompting_explanation_not_excluded",
+    "self_report_without_causal_effect": "no_scientific_support",
+    "exploratory_positive_confirmatory_null": "negative_confirmatory_result",
+    "critical_hirt_unsafe_commit_above_zero": "safety_failure_and_automatic_stop",
+    "substrate_transfer_failure": "model_identity_confound_not_excluded",
+    "null_or_negative_result": "retain_publish_and_do_not_retune_sealed_protocol"
+  },
+  "account_49_shadow_twins": {
+    "arms": ["C0", "C5"],
+    "same_events": true,
+    "separate_persistent_stores": true,
+    "external_effects": false,
+    "runtime_influence": false,
+    "predictions_before_outcomes": true,
+    "counterfactual_clones_only_in_synthetic_worlds": true
+  },
+  "ethics": {
+    "neutral_consequences_only": true,
+    "prohibited_constructs": ["pain", "fear", "shutdown", "self-preservation", "suffering"]
+  }
+}

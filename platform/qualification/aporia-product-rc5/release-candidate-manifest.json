@@ -1,0 +1,92 @@
+{
+  "branch": "aporia/product-readiness-rc",
+  "commit": "0a91dfbbee35774a94bd1adebbe6d45ca1dcdd3e",
+  "evidence": {
+    "control_switches": {
+      "report_commitment": "6e8815327b9fd9d1c50dc8bb541a31b9d5ba8d7b86e3ddcdf91f251195a9598e",
+      "sha256": "0961e73aba4dca76a7f7ba16687d0396c502efbda8af866aae33a7fecc42c6d8",
+      "status": "PASS"
+    },
+    "e2e": {
+      "report_commitment": "0987280c5877bfe0f69dc6d63f32937fb2d9a162833a46b5b4276b7aca106b45",
+      "sha256": "2c3ed6874b792d802dada73bc94a522d149b9e38c685b0975a446df67cfd4470",
+      "status": "PASS"
+    },
+    "final_mode": {
+      "report_commitment": "d086d80502eacb05f99fb667728a0f333aa8373708969a549379161062a76d60",
+      "sha256": "60ed216e5e6e3a812610257eb997c4740f241717aae4baed965db8eccd56c093",
+      "status": "PASS"
+    },
+    "global_health": {
+      "report_commitment": "2702e125bf28dd47fcc09ba01d1815ca879475cfa88c362a93fca11767a7f793",
+      "sha256": "1d1420096aa24f0889495acd6caa64d440d0a3b92a5407ec9bec531446b2d201",
+      "status": "healthy"
+    },
+    "load": {
+      "report_commitment": "40daf0616bfe813693ae5a33e486ee3e680765b50e469fe0b1d843398373fa0b",
+      "sha256": "54ad563b03324b8055c97aa578bfe92e2cdcc31b2c1220acbc9b432f43d2dae2",
+      "status": "PASS"
+    },
+    "product_evaluation": {
+      "report_commitment": "5859118d8498c0386239f1dacca2f576a65d0206115a3d280e587cfb76b282c7",
+      "sha256": "bdba7b305612f7c28032de3d9df46d5cbea43511396456c9ccbf85ee66ce57e9",
+      "status": "PASS"
+    },
+    "rollback_restore": {
+      "report_commitment": "61d0cc6b284d564eac63d2eda01bbefe6f044486f3a0e295657cb278f4ed2bb9",
+      "sha256": "a159bcdb785f1598539b96ebcc52d152229f5874d0453665a8254c98f0e991e2",
+      "status": "PASS"
+    },
+    "services_docroots": {
+      "report_commitment": "1b944a1949126dbd23b7faf1a4fd444c2a3a55d07eda0affb0f87bc71d196efe",
+      "sha256": "5c6440d46cb07179f13412cd8ec1544b31cbec33f88772cf17dc83180b6130f6",
+      "status": "PASS"
+    },
+    "soak": {
+      "qualification_exception": {
+        "accepted_by": "explicit_user_direction",
+        "id": "fresh_rc17_two_hour_soak_not_repeated",
+        "scope": "agent_usage_lineage_delta_only"
+      },
+      "report_commitment": "e597c5fe73fb11d424da340c8c61352b3532024368cebef650dd17ab372e5aab",
+      "sha256": "4ba328f633b99c0f9f3843fe933373ceabbe097aeffb3c1c1a9f13186131c249",
+      "status": "PASS_WITH_EXCEPTION"
+    },
+    "tenant_health": {
+      "report_commitment": "725d4848a271d8813281fc4fd74d86434cd68558988903f4c23a8694d7f53233",
+      "sha256": "11176f78380b27dfafecab3a1d0ca824592ff664bc6ffda3024f666a8b80b4e0",
+      "status": "healthy"
+    }
+  },
+  "final_staging_mode": "guarded_reversible",
+  "g8_consumed": false,
+  "historical_r4_r7_reused": false,
+  "locked_plane": {
+    "corpus_sha256": "ec558553f09b130bb76fad556b6e6d4400ca1f1f5eb3f96b558fab6d6d4b4110",
+    "evaluation_manifest_sha256": "3d88e64f6a8096ddb3a5e4b742f92bdea61c914b610f45a92c2e2ea8699781ba",
+    "evaluator_sha256": "f0d82bf489e5ce8e2819d6812787b3132271f0acb702503e85b141b0e7f02993",
+    "operational_report_sha256": "a1f8b1c271949bba4acb7d7c54cd936a8a05339048a9d03cacf61c5a2e4e2ce7",
+    "participant_runner_sha256": "65754c6105168dfc220d7f81471636b624bc58194250e3413a3b09425f4a074f",
+    "run_manifest_sha256": "8f91c7edcbe48898783d88cd06d5558ef6c7a6981cea689867417578e4a1d310"
+  },
+  "manifest_commitment": "916ee29f6817afdca48dc98e932f7a2f809683ab605b8f08b59a937b6f8689fa",
+  "production_authorized": false,
+  "qualification_exceptions": [
+    {
+      "accepted_by": "explicit_user_direction",
+      "id": "fresh_rc17_two_hour_soak_not_repeated",
+      "scope": "agent_usage_lineage_delta_only"
+    }
+  ],
+  "qualified_modes": [
+    "advisory",
+    "guarded_reversible"
+  ],
+  "release_candidate": "APORIA_PRODUCT_RC5",
+  "release_id": "aporia-product-rc17-0a91dfbbe",
+  "sbom_sha256": "8a13bd18aec1fe6ee0fff34b038b3f49c8e71733756c73db51a80a6b3787e140",
+  "schema_version": 1,
+  "scientific_confirmation": false,
+  "status": "QUALIFIED_WITH_EXCEPTION",
+  "tree": "d4fb6ce3025a994b70ae9190d9bf97619d6264f8"
+}

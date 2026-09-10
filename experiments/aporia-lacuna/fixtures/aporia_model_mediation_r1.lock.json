@@ -1,0 +1,11 @@
+{
+  "protocol_key": "aporia_model_mediation_r1",
+  "status": "sealed",
+  "sealed_at": "2026-08-22T05:11:15Z",
+  "code_commitment": "bbfbfd60795cbfc496d27f63b248e372365429e1e4c11b61762657d0a44e24b7",
+  "preregistration_sha256": "bda047e1af66801fafae4e053b982443b41e2e06dd1a98f89af02905fd7994b4",
+  "sealed_file_count": 11,
+  "changes_after_sealing_allowed": false,
+  "confirmation_execution_limit": 1,
+  "production_allowed": false
+}

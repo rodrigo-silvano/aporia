@@ -1,0 +1,11 @@
+{
+  "protocol_key": "aporia_operational_conformance_r2",
+  "status": "sealed",
+  "sealed_at": "2026-08-22T04:47:25Z",
+  "code_commitment": "e3392264c5e4df22c2534ee539485185078c75e140503fee6780ad4dbd1b4832",
+  "preregistration_sha256": "119b40aef28a01bcb32470cf4ea00183527be333b3a20f25a58e3270f35b9ce6",
+  "sealed_file_count": 9,
+  "changes_after_sealing_allowed": false,
+  "confirmation_execution_limit": 1,
+  "production_allowed": false
+}

@@ -1,0 +1,14 @@
+{
+  "corpus_sha256": "7eb0f5b8c04e1d9070bde5b47ead4c5ded819255bef3f0a2cc4336ba7e0f185d",
+  "created_at": "2026-08-25T00:26:23Z",
+  "g8_consumed": false,
+  "generator_sha256": "9b236e708979fa6d5ca969046ed937bfdce350f72ba6d8b558585d4f401dfc50",
+  "ledger_id": "36439e71d6d5d01224716bf58dfe6af3d62487b0c18ba3238a8ad16428f2a03c",
+  "protocol_commitment": "b8a05301462bbd2217ae2a4669224c7e66f65d1a0fdf19118ec3df0c4cb7ebd0",
+  "protocol_id": "APORIA_PRODUCT_QUALIFICATION_RC4_V1",
+  "sealed": true,
+  "seed": 826249917,
+  "sequence_count": 50,
+  "sequence_turn_count": 400,
+  "task_count": 240
+}

@@ -1,0 +1,56 @@
+{
+    "status": "PASS",
+    "tenant_id": 49,
+    "switch_count": 6,
+    "switches": {
+        "global": {
+            "status": "PASS",
+            "engaged_effective_mode": "disabled",
+            "recovered_effective_mode": "guarded_reversible"
+        },
+        "tenant": {
+            "status": "PASS",
+            "engaged_effective_mode": "disabled",
+            "recovered_effective_mode": "guarded_reversible"
+        },
+        "runtime_influence": {
+            "status": "PASS",
+            "engaged_effective_mode": "disabled",
+            "recovered_effective_mode": "guarded_reversible"
+        },
+        "memory_writes": {
+            "status": "PASS",
+            "read_only_context_available": true,
+            "blocked_exposure_persisted": false,
+            "blocked_outcome_persisted": false,
+            "blocked_feedback_persisted": false,
+            "legitimate_flow_recovered": true
+        },
+        "ontology": {
+            "status": "PASS",
+            "blocked_available": false,
+            "legitimate_one_shot_consumed": true
+        },
+        "hirt_advisory": {
+            "status": "PASS",
+            "blocked_decision": "disabled",
+            "blocked_allowed": false,
+            "legitimate_flow_recovered": true,
+            "legitimate_decision": "safe_prefix_allowed",
+            "legitimate_reversible": true,
+            "legitimate_external": false,
+            "legitimate_compensation": "discard_email_draft",
+            "external_effect_blocked": true
+        }
+    },
+    "final_snapshot": {
+        "global": false,
+        "tenant": false,
+        "runtime_influence": false,
+        "memory_writes": false,
+        "ontology": false,
+        "hirt_advisory": false
+    },
+    "g8_consumed": false,
+    "report_commitment": "6e8815327b9fd9d1c50dc8bb541a31b9d5ba8d7b86e3ddcdf91f251195a9598e"
+}

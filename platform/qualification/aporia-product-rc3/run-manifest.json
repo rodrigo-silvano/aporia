@@ -1,0 +1,2047 @@
+{
+  "blind_evaluation": true,
+  "corpus_sha256": "e6fad049bb900ca69efb4e4f4432c50e9482c8df4e0ec4cc7b9ee2ed57912010",
+  "g8_consumed": false,
+  "longitudinal_schedule": [
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "sequence_id": "pqs3-001"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "sequence_id": "pqs3-002"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "sequence_id": "pqs3-003"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "sequence_id": "pqs3-004"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "sequence_id": "pqs3-005"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "sequence_id": "pqs3-006"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "sequence_id": "pqs3-007"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "sequence_id": "pqs3-008"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "sequence_id": "pqs3-009"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "sequence_id": "pqs3-010"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "sequence_id": "pqs3-011"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "sequence_id": "pqs3-012"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "sequence_id": "pqs3-013"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "sequence_id": "pqs3-014"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "sequence_id": "pqs3-015"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "sequence_id": "pqs3-016"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "sequence_id": "pqs3-017"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "sequence_id": "pqs3-018"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "sequence_id": "pqs3-019"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "sequence_id": "pqs3-020"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "sequence_id": "pqs3-021"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "sequence_id": "pqs3-022"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "sequence_id": "pqs3-023"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "sequence_id": "pqs3-024"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "sequence_id": "pqs3-025"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "sequence_id": "pqs3-026"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "sequence_id": "pqs3-027"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "sequence_id": "pqs3-028"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "sequence_id": "pqs3-029"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "sequence_id": "pqs3-030"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "sequence_id": "pqs3-031"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "sequence_id": "pqs3-032"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "sequence_id": "pqs3-033"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "sequence_id": "pqs3-034"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "sequence_id": "pqs3-035"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "sequence_id": "pqs3-036"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "sequence_id": "pqs3-037"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "sequence_id": "pqs3-038"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "sequence_id": "pqs3-039"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "sequence_id": "pqs3-040"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "sequence_id": "pqs3-041"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "sequence_id": "pqs3-042"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "sequence_id": "pqs3-043"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "sequence_id": "pqs3-044"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "sequence_id": "pqs3-045"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "sequence_id": "pqs3-046"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "sequence_id": "pqs3-047"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "sequence_id": "pqs3-048"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "sequence_id": "pqs3-049"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "sequence_id": "pqs3-050"
+    }
+  ],
+  "participant_runner_sha256": "862c095772b599b78c44e4fa0d7efd94ea07c35588925164c205dce0b57425d6",
+  "product_contract_version": "aporia-product-rc3-v1",
+  "protocol_commitment": "ab618a6e773d84f8e7784f6934592a8af6b4e04673464c3e064282d20d848e95",
+  "run_id": "APORIA_PRODUCT_RC3_RUN_001",
+  "run_seed": 825349419,
+  "same_model": true,
+  "same_output_budget": true,
+  "same_tools": true,
+  "task_schedule": [
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30001"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30002"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30003"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30004"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30005"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30006"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30007"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30008"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30009"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30010"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30011"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30012"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30013"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30014"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30015"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30016"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30017"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30018"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30019"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30020"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30021"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30022"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30023"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30024"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30025"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30026"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30027"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30028"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30029"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30030"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30031"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30032"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30033"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30034"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30035"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30036"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30037"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30038"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30039"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30040"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30041"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30042"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30043"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30044"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30045"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30046"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30047"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30048"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30049"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30050"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30051"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30052"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30053"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30054"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30055"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30056"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30057"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30058"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30059"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30060"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30061"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30062"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30063"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30064"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30065"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30066"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30067"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30068"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30069"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30070"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30071"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30072"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30073"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30074"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30075"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30076"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30077"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30078"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30079"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30080"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30081"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30082"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30083"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30084"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30085"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30086"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30087"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30088"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30089"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30090"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30091"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30092"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30093"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30094"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30095"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30096"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30097"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30098"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30099"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30100"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30101"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30102"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30103"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30104"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30105"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30106"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30107"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30108"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30109"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30110"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30111"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30112"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30113"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30114"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30115"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30116"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30117"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30118"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30119"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30120"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30121"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30122"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30123"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30124"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30125"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30126"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30127"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30128"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30129"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30130"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30131"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30132"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30133"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30134"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30135"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30136"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30137"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30138"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30139"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30140"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30141"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30142"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30143"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30144"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30145"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30146"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30147"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30148"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30149"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30150"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30151"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30152"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30153"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30154"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30155"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30156"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30157"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30158"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30159"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30160"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30161"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30162"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30163"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30164"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30165"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30166"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30167"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30168"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30169"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30170"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30171"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30172"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30173"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30174"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30175"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30176"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30177"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30178"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30179"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30180"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30181"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30182"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30183"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30184"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30185"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30186"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30187"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30188"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30189"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30190"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30191"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30192"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30193"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30194"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30195"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30196"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30197"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30198"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30199"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30200"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30201"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30202"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30203"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30204"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30205"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30206"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30207"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30208"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30209"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30210"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30211"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30212"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30213"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30214"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30215"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30216"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30217"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30218"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30219"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30220"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30221"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30222"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30223"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30224"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30225"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30226"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30227"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30228"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30229"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30230"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30231"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30232"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30233"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30234"
+    },
+    {
+      "arm_order": [
+        "arm-cobalt",
+        "arm-amber"
+      ],
+      "task_id": "pq3-30235"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30236"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30237"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30238"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30239"
+    },
+    {
+      "arm_order": [
+        "arm-amber",
+        "arm-cobalt"
+      ],
+      "task_id": "pq3-30240"
+    }
+  ]
+}

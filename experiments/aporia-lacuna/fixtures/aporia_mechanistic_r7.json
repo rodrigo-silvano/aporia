@@ -1,0 +1,119 @@
+{
+  "protocol_key": "aporia_mechanistic_r7",
+  "title": "Information-Isomorphic State-Operator Crossover",
+  "version": "r7",
+  "primary_question": "With information held equivalent by lossless construction, do representation, operator, autobiographical binding or causal trajectory change decisions?",
+  "canonical_state_schema": "aporia_information_isomorphic_state_v1",
+  "canonical_state_fields": [
+    "events",
+    "outcomes",
+    "predictions",
+    "timestamps",
+    "causal_parents",
+    "histories",
+    "commitments",
+    "uncertainty",
+    "facts",
+    "relations",
+    "provenance",
+    "bindings",
+    "candidates"
+  ],
+  "representations": [
+    "causal_graph",
+    "relational_tables",
+    "event_log",
+    "adjacency_list",
+    "canonical_text",
+    "binary_bundle",
+    "constraints"
+  ],
+  "lossless_gates": {
+    "roundtrip_rate": 1.0,
+    "canonical_hash_equivalence_rate": 1.0,
+    "directional_deficiency_aporia_to_zombie_max": 0.0,
+    "directional_deficiency_zombie_to_aporia_max": 0.0,
+    "blackwell_distance_max": 0.0,
+    "decision_equivalence_rate": 1.0
+  },
+  "factorial_arms": [
+    "S_A+T_A",
+    "S_A+T_Z",
+    "S_Z+T_A",
+    "S_Z+T_Z"
+  ],
+  "factorial_analysis": [
+    "state_effect",
+    "operator_effect",
+    "state_operator_interaction"
+  ],
+  "development_factor_seeds": {
+    "first": 113001,
+    "last": 113064,
+    "count": 64
+  },
+  "confirmation_factor_seeds": {
+    "first": 114001,
+    "last": 114064,
+    "count": 64
+  },
+  "development_synthetic_seeds": {
+    "first": 115001,
+    "last": 115128,
+    "count": 128
+  },
+  "confirmation_synthetic_seeds": {
+    "first": 116001,
+    "last": 116128,
+    "count": 128
+  },
+  "power_simulation": {
+    "blocks": 64,
+    "baseline_rate": 0.6,
+    "operator_rate": 0.85,
+    "simulations": 4000,
+    "seed": 112991,
+    "minimum_power": 0.8,
+    "familywise_alpha": 0.01
+  },
+  "independent_unit": "synthetic_world_seed_block",
+  "model_calls_per_block": 1,
+  "model_calls_total": 64,
+  "raw_response_shared_across_all_four_arms": true,
+  "binding_intervention": "do(current_identity=alternate_lineage)",
+  "binding_gates": {
+    "binding_accuracy": 1.0,
+    "binding_swap_accuracy": 1.0,
+    "follows_intervention_rate": 1.0,
+    "matched_except_binding_rate": 1.0,
+    "renaming_and_order_invariance_rate": 1.0
+  },
+  "representation_variance_max": 0.000001,
+  "trajectory_intervention": "swap_terminal_causal_parent_with_terminal_fact_set_held_constant",
+  "trajectory_gates": {
+    "matched_except_trajectory_rate": 1.0,
+    "follows_causal_parent_intervention_rate": 1.0
+  },
+  "authenticated_ecological_preconditions": [
+    "authenticated_websocket",
+    "session_turn_binding",
+    "prediction_sealed_before_outcome"
+  ],
+  "execution_runtime_profile": "staging_ai_gateway_virtualenv",
+  "execution_target": "staging_once",
+  "provider_endpoint_policy": "official_openai_https_only",
+  "confirmatory_max_retries": 0,
+  "atomic_execution_reservation_required": true,
+  "external_code_commitment_required": true,
+  "negative_results_retained": true,
+  "rerun_after_observed_outcome_allowed": false,
+  "real_payloads_persisted": false,
+  "chain_of_thought_persisted": false,
+  "e_forecast_state": "ACCRUING",
+  "g1_g6_state": "BLOCKED_BY_REAL_DATA",
+  "g8_state": "SEALED",
+  "e_policy": "NOT_ELIGIBLE",
+  "production_allowed": false,
+  "phenomenology_claim_allowed": false,
+  "maximum_claim": "information_isomorphic_functional_mechanism_only"
+}

@@ -1,0 +1,7 @@
+{
+  "status": "sealed",
+  "protocol_key": "aporia_discrimination_r2",
+  "code_commitment": "a51acd6ce9ddce8c1e749fa476b6c4bfff4cf54266322df46e3d240ba820549b",
+  "preregistration_sha256": "adadf0906fabde847edb1fc6e40a803f366fcd5e064697a38425706e469f4728",
+  "sealed_file_count": 7
+}

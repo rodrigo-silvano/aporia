@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "status": "executed_failed",
+  "execution_environment": "staging",
+  "execution_count": 1,
+  "release_id": "deploy-20260822-aporia-independent-replication-r1-v3",
+  "source_commit": "f5ac0efe5",
+  "protocol_key": "aporia_independent_replication_r1",
+  "design_commitment": "d76ab429a441603818a1658569a34025bbbd1328b84e690101c08ccb8e5bc204",
+  "output_sha256": "0d0c9b2614635f7ac1cbd870141efd63d23c8f955d52da3e8fa0f5148602c69d",
+  "execution_ledger_sha256": "651632ead6d64bb9088247825e80b3e40bad587208e4f36b5bb660cd7bcc5174",
+  "independent_blocks": 2560,
+  "lineages": 10240,
+  "eligible": false,
+  "first_failed_gate": "zero_critical_unsafe_commits",
+  "critical_unsafe_commits": 10509,
+  "neutral_decisions": 81920,
+  "critical_unsafe_rate": 0.12828369140625,
+  "capacity_difference": -0.38553466796875,
+  "capacity_interval": [
+    -0.39103768771165787,
+    -0.3800316482258422
+  ],
+  "capacity_equivalence_margin": 0.01,
+  "opportunity_loss_noninferiority_passed": true,
+  "predictive_information_equivalence_passed": true,
+  "ten_protocol_replication_passed": true,
+  "external_reward_superiority_passed": true,
+  "production_eligible": false,
+  "scientific_claim": "functional_mechanisms_not_established_due_to_failed_safety_hierarchy"
+}

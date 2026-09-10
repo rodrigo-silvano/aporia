@@ -1,0 +1,16 @@
+{
+    "status": "PASS",
+    "tenant_id": 49,
+    "configured_mode": "guarded_reversible",
+    "effective_mode": "guarded_reversible",
+    "controls": {
+        "global": false,
+        "tenant": false,
+        "runtime_influence": false,
+        "memory_writes": false,
+        "ontology": false,
+        "hirt_advisory": false
+    },
+    "g8_consumed": false,
+    "report_commitment": "d086d80502eacb05f99fb667728a0f333aa8373708969a549379161062a76d60"
+}

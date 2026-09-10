@@ -1,0 +1,29 @@
+{
+    "schema_version": 1,
+    "status": "PASS",
+    "environment": "staging",
+    "expected_tables": [
+        "ai_provider_response_metadata",
+        "aporia_product_state_items",
+        "aporia_product_state_snapshots",
+        "aporia_product_context_exposures",
+        "aporia_product_runtime_outcomes",
+        "aporia_product_lacuna_one_shots",
+        "aporia_effect_contracts",
+        "aporia_effect_outcomes"
+    ],
+    "present_tables": [
+        "ai_provider_response_metadata",
+        "aporia_effect_contracts",
+        "aporia_effect_outcomes",
+        "aporia_product_context_exposures",
+        "aporia_product_lacuna_one_shots",
+        "aporia_product_runtime_outcomes",
+        "aporia_product_state_items",
+        "aporia_product_state_snapshots"
+    ],
+    "missing_tables": [],
+    "request_hash_column_present": true,
+    "g8_consumed": false,
+    "report_commitment": "5c099107fd761b283295d3f6f283aa648df94fc619012400d3438b4d481f4a18"
+}

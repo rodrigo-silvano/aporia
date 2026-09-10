@@ -1,0 +1,14 @@
+{
+  "protocol_key": "aporia_longitudinal_prereg_v3",
+  "source_commit": "dc6e93f6",
+  "staging_merge_commit": "698b12a2",
+  "release": "deploy-20260822-aporia-longitudinal-v3",
+  "confirmatory_seed_range": [4701, 4732],
+  "sealed_file_count": 24,
+  "code_commitment": "831efc96d37452d9d3966a30b2556328262f02ab85f8b3481077776f77fbbdde",
+  "output_sha256": "a9a89c1f39aff3cced6eca1af8eaa80a17787e90657678aa95dae907199801d2",
+  "reexecution_allowed": false,
+  "historical_result_mutable": false,
+  "bootstrap_preserved": true,
+  "final_report_preserved": true
+}

@@ -1,0 +1,81 @@
+{
+  "docroots": {
+    "/home/rodrigo1/web/stag-admin.aporia.local/public_html": {
+      "actual": "/home/rodrigo1/staging/aporia/runtime/releases/aporia-product-rc17-0a91dfbbe/payload/apps/authenticated-web/admin",
+      "expected": "/home/rodrigo1/staging/aporia/runtime/releases/aporia-product-rc17-0a91dfbbe/payload/apps/authenticated-web/admin",
+      "match": true
+    },
+    "/home/rodrigo1/web/stag-forms.aporia.local/public_html": {
+      "actual": "/home/rodrigo1/staging/aporia/runtime/releases/aporia-product-rc17-0a91dfbbe/payload/runtime/build/authenticated-web-public",
+      "expected": "/home/rodrigo1/staging/aporia/runtime/releases/aporia-product-rc17-0a91dfbbe/payload/runtime/build/authenticated-web-public",
+      "match": true
+    },
+    "/home/rodrigo1/web/stag-get.aporia.local/public_html": {
+      "actual": "/home/rodrigo1/staging/aporia/runtime/releases/aporia-product-rc17-0a91dfbbe/payload/runtime/build/acquisition-site-public",
+      "expected": "/home/rodrigo1/staging/aporia/runtime/releases/aporia-product-rc17-0a91dfbbe/payload/runtime/build/acquisition-site-public",
+      "match": true
+    },
+    "/home/rodrigo1/web/staging-main.aporia.local/public_html": {
+      "actual": "/home/rodrigo1/staging/aporia/runtime/releases/aporia-product-rc17-0a91dfbbe/payload/runtime/build/marketing-site-public",
+      "expected": "/home/rodrigo1/staging/aporia/runtime/releases/aporia-product-rc17-0a91dfbbe/payload/runtime/build/marketing-site-public",
+      "match": true
+    },
+    "/home/rodrigo1/web/staging.aporia.local/public_html": {
+      "actual": "/home/rodrigo1/staging/aporia/runtime/releases/aporia-product-rc17-0a91dfbbe/payload/runtime/build/authenticated-web-public",
+      "expected": "/home/rodrigo1/staging/aporia/runtime/releases/aporia-product-rc17-0a91dfbbe/payload/runtime/build/authenticated-web-public",
+      "match": true
+    }
+  },
+  "environment": "staging",
+  "g8_consumed": false,
+  "gates": {
+    "all_docroots_on_rc17": true,
+    "all_http_surfaces_healthy": true,
+    "all_open_basedir_configs_allow_private_runtime": true,
+    "all_services_active": true
+  },
+  "http": {
+    "acquisition": {
+      "status": 200,
+      "url": "https://stag-get.aporia.local/"
+    },
+    "admin": {
+      "status": 200,
+      "url": "https://stag-admin.aporia.local/login"
+    },
+    "app": {
+      "status": 200,
+      "url": "https://staging.aporia.local/auth/login"
+    },
+    "forms": {
+      "status": 200,
+      "url": "https://stag-forms.aporia.local/"
+    },
+    "marketing": {
+      "status": 200,
+      "url": "https://staging-main.aporia.local/"
+    }
+  },
+  "open_basedir": {
+    "/etc/php/8.3/fpm/pool.d/stag-admin.aporia.local.conf": true,
+    "/etc/php/8.3/fpm/pool.d/stag-forms.aporia.local.conf": true,
+    "/etc/php/8.3/fpm/pool.d/stag-get.aporia.local.conf": true,
+    "/etc/php/8.3/fpm/pool.d/staging-main.aporia.local.conf": true,
+    "/etc/php/8.3/fpm/pool.d/staging.aporia.local.conf": true,
+    "/etc/php/8.4/fpm/pool.d/stag-admin.aporia.local.conf": true
+  },
+  "release_id": "aporia-product-rc17-0a91dfbbe",
+  "report_commitment": "1b944a1949126dbd23b7faf1a4fd444c2a3a55d07eda0affb0f87bc71d196efe",
+  "schema_version": 1,
+  "services": {
+    "aporia-staging-ai-gateway.service": "active",
+    "aporia-staging-analyzer.service": "active",
+    "aporia-staging-automation-worker.service": "active",
+    "aporia-staging-agent-egress.service": "active",
+    "aporia-staging-agent-gateway.service": "active",
+    "aporia-staging-partners-audit-outbox.service": "active",
+    "aporia-staging-partners.service": "active",
+    "aporia-staging-runtime-worker.service": "active"
+  },
+  "status": "PASS"
+}

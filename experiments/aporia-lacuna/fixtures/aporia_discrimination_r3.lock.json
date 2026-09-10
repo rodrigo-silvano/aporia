@@ -1,0 +1,11 @@
+{
+  "protocol_key": "aporia_discrimination_r3",
+  "status": "sealed",
+  "sealed_at": "2026-08-22T04:31:00Z",
+  "code_commitment": "73dc41fb20d9bba7589a49f1339024c205846725cf9ae7efbca357ca88fb41cb",
+  "preregistration_sha256": "ea3cfbba411f29228ed7d1aebead1487a3baf4339f0969457d858fbf947281eb",
+  "sealed_file_count": 11,
+  "changes_after_sealing_allowed": false,
+  "confirmation_execution_limit": 1,
+  "production_allowed": false
+}

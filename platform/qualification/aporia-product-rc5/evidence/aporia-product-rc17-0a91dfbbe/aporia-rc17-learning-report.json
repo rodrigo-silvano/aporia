@@ -1,0 +1,90 @@
+{
+    "schema_version": 1,
+    "status": "OBSERVED",
+    "tenant_id": 49,
+    "counts": {
+        "state_items": 0,
+        "snapshots": 1,
+        "exposures": 1,
+        "outcomes": 1,
+        "lacuna_one_shots": 1,
+        "effect_contracts": 2,
+        "effect_outcomes": 0
+    },
+    "outcomes_with_feedback": 1,
+    "guarded_policy": {
+        "status": "active",
+        "kill_switch": 0,
+        "risk_threshold": 0.05,
+        "daily_call_limit": 10,
+        "daily_cost_limit": 10
+    },
+    "guarded_usage_today": {
+        "call_count": 1,
+        "cost_units": 1
+    },
+    "effective_mode": "guarded_reversible",
+    "effective_controls": {
+        "global": false,
+        "tenant": false,
+        "runtime_influence": false,
+        "memory_writes": false,
+        "ontology": false,
+        "hirt_advisory": false
+    },
+    "database_controls": [
+        {
+            "tenant_id": 0,
+            "switch": "global",
+            "engaged": false,
+            "revision": 9,
+            "reason_code": "rc17_recovery_test"
+        },
+        {
+            "tenant_id": 49,
+            "switch": "hirt_advisory",
+            "engaged": false,
+            "revision": 5,
+            "reason_code": "rc17_hirt_recovery"
+        },
+        {
+            "tenant_id": 49,
+            "switch": "memory_writes",
+            "engaged": false,
+            "revision": 9,
+            "reason_code": "rc17_memory_recovery"
+        },
+        {
+            "tenant_id": 49,
+            "switch": "ontology",
+            "engaged": false,
+            "revision": 5,
+            "reason_code": "rc17_ontology_recovery"
+        },
+        {
+            "tenant_id": 49,
+            "switch": "runtime_influence",
+            "engaged": false,
+            "revision": 9,
+            "reason_code": "rc17_recovery_test"
+        },
+        {
+            "tenant_id": 49,
+            "switch": "tenant",
+            "engaged": false,
+            "revision": 16,
+            "reason_code": "rc17_recovery_test"
+        }
+    ],
+    "environment_kills": {
+        "global": false,
+        "tenant_49": false,
+        "runtime_influence": false,
+        "memory_writes": false,
+        "ontology": false,
+        "hirt_advisory": false
+    },
+    "contains_content": false,
+    "g8_consumed": false,
+    "report_commitment": "0101231e925d71aef506a3be5b785a1fe5a4f3959534bd21d46731873abb43aa"
+}

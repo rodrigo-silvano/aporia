@@ -1,0 +1,5 @@
+model = "gpt-5.6-terra"
+model_reasoning_effort = "high"
+sandbox_mode = "read-only"
+approval_policy = "never"
+developer_instructions = "Valida fórmulas, domínios, normalizações, estabilidade, causalidade, casos degenerados e falseabilidade. Produz proof obligations e test vectors. Não alteres ficheiros."

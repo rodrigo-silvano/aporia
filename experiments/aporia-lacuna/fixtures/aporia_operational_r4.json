@@ -1,0 +1,23 @@
+{
+  "protocol_key": "aporia_operational_r4",
+  "extends_without_repeating": "aporia_operational_r3",
+  "supersedes_invalid_protocol": "aporia_operational_r3",
+  "invalidation_reason": "confirmatory_output_and_ledger_reservations_were_reopened_by_path_before_any_r3_execution",
+  "purpose": "lifecycle_and_chaos_extension_for_eighteen_required_interleavings",
+  "development_seeds": {"first": 99001, "last": 99256, "count": 256},
+  "confirmation_seeds": {"first": 99301, "last": 99556, "count": 256},
+  "scenario_count": 18,
+  "terminal_barrier": ["turn_done", "usage_terminal", "outcome_terminal", "archived"],
+  "revoke_requires_all_terminal_components": true,
+  "timeouts_are_not_completion": true,
+  "wrong_turn_association_allowed": false,
+  "runtime_influence_allowed": false,
+  "external_effect_allowed": false,
+  "contamination_allowed": false,
+  "execution_target": "staging_once",
+  "atomic_output_and_ledger_descriptors_required": true,
+  "external_code_commitment_required": true,
+  "snapshot_restore_schema_validation_required": true,
+  "rerun_after_observed_outcome_allowed": false,
+  "production_allowed": false
+}

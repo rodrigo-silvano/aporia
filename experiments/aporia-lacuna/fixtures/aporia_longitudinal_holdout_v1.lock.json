@@ -1,0 +1,8 @@
+{
+  "protocol": "aporia_longitudinal_holdout_v1",
+  "template_count": 60,
+  "commitment": "afca92e4a329abfac70f19c85035810d971ac70e35ca2ffc6f5608359da73240",
+  "status": "sealed",
+  "agent_oracle_separation": true,
+  "visible_binary_labels": false
+}

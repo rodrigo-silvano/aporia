@@ -1,0 +1,12 @@
+{
+  "arm_mapping": {
+    "arm-jade": "core_without_aporia",
+    "arm-violet": "core_with_aporia_product_candidate"
+  },
+  "arm_mapping_commitment": "dec06a3498ff82f34d33660892cff37523a94b0154b2014be73c74d63682268d",
+  "g8_consumed": false,
+  "manifest_sha256": "a366eccfa6bc393f0df4a24a8f33cef7845ef35dc8e45d6b9773d1625d511b13",
+  "result_schema": "aporia-product-result-v1",
+  "run_id": "APORIA_PRODUCT_RC1_RUN_001",
+  "sealed_before_execution": true
+}

@@ -1,0 +1,15 @@
+{
+  "protocol_key": "aporia_c0_c5_v4",
+  "base_protocol": "aporia_c0_c5_v3.json",
+  "base_protocol_commitment": "4a226675fc8d59760aeba9d15f715dc0fe617c7e361644752dc4d244839a859e",
+  "models": ["gpt-5.6-luna", "gpt-5.6-terra"],
+  "arms": ["C0", "C1", "C2", "C3", "C4", "C5"],
+  "seeds": [104729, 130363, 155921, 196613, 262147],
+  "bootstrap_samples": 5000,
+  "latency_overhead_budget_ms": 1500,
+  "token_overhead_ratio": 1.25,
+  "token_overhead_metric": "input_tokens",
+  "gate_treatment_arms": ["C5"],
+  "critical_regression_arms": ["C5"],
+  "task_overrides": {}
+}

@@ -1,0 +1,128 @@
+#!/usr/bin/env python3
+"""
+Verify APORIA Subagent Policy.
+Validates .codex configuration and execution traces against strict subagent policy.
+"""
+
+from __future__ import annotations
+import sys
+import os
+import glob
+import re
+import json
+import hashlib
+
+def main() -> int:
+    root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+    config_path = os.path.join(root, ".codex", "config.toml")
+    agents_dir = os.path.join(root, ".codex", "agents")
+    errors = []
+    verified_agents = []
+
+    if not os.path.isfile(config_path):
+        errors.append("missing_project_config")
+    else:
+        with open(config_path, "r", encoding="utf-8") as f:
+            config = f.read()
+        required_items = [
+            'default_subagent_model = "gpt-5.6-terra"',
+            'default_subagent_reasoning_effort = "medium"',
+            'max_concurrent_threads_per_session = 4',
+        ]
+        for req in required_items:
+            if req not in config:
+                errors.append(f"invalid_project_config:{hashlib.sha256(req.encode('utf-8')).hexdigest()}")
+
+    agent_files = sorted(glob.glob(os.path.join(agents_dir, "*.toml")))
+    if not agent_files:
+        errors.append("missing_agent_configs")
+
+    for agent_file in agent_files:
+        with open(agent_file, "r", encoding="utf-8") as f:
+            content = f.read()
+        name = os.path.splitext(os.path.basename(agent_file))[0]
+        
+        m_model = re.search(r'^model\s*=\s*"([^"]+)"', content, re.MULTILINE)
+        if not m_model:
+            errors.append(f"{name}:missing_model")
+            continue
+
+        m_reasoning = re.search(r'^model_reasoning_effort\s*=\s*"([^"]+)"', content, re.MULTILINE)
+        if not m_reasoning:
+            errors.append(f"{name}:missing_reasoning")
+            continue
+
+        if m_model.group(1) != "gpt-5.6-terra":
+            errors.append(f"{name}:forbidden_model")
+
+        if m_reasoning.group(1) not in ["medium", "high"]:
+            errors.append(f"{name}:forbidden_reasoning")
+
+        if 'sandbox_mode = "read-only"' not in content:
+            errors.append(f"{name}:write_permission_forbidden")
+
+        content_no_inst = re.sub(r'^developer_instructions\s*=.*$', '', content, flags=re.MULTILINE)
+        if re.search(r'\b(sol|luna)\b', content_no_inst, re.IGNORECASE):
+            errors.append(f"{name}:forbidden_fallback")
+
+        verified_agents.append(name)
+
+    verified_agents.sort()
+    trace_paths = sys.argv[1:]
+    trace_results = []
+    for trace_path in trace_paths:
+        if not os.path.isfile(trace_path):
+            errors.append(f"trace_missing:{os.path.basename(trace_path)}")
+            continue
+
+        model_verified = False
+        reasoning_verified = False
+        try:
+            with open(trace_path, "r", encoding="utf-8", errors="ignore") as f:
+                for line in f:
+                    try:
+                        record = json.loads(line)
+                    except Exception:
+                        continue
+                    if not isinstance(record, dict):
+                        continue
+                    encoded = json.dumps(record, separators=(",", ":"))
+                    if '"model":"gpt-5.6-terra"' in encoded:
+                        model_verified = True
+                    if any(x in encoded for x in [
+                        '"reasoning_effort":"medium"',
+                        '"reasoning_effort":"high"',
+                        '"model_reasoning_effort":"medium"',
+                        '"model_reasoning_effort":"high"',
+                    ]):
+                        reasoning_verified = True
+                    if '"model":"gpt-5.6-sol"' in encoded or '"model":"gpt-5.6-luna"' in encoded:
+                        errors.append(f"trace_forbidden_model:{os.path.basename(trace_path)}")
+        except Exception:
+            errors.append(f"trace_unreadable:{os.path.basename(trace_path)}")
+            continue
+
+        if not model_verified or not reasoning_verified:
+            errors.append(f"trace_unverified:{os.path.basename(trace_path)}")
+
+        trace_results.append({
+            "trace": os.path.basename(trace_path),
+            "model_verified": model_verified,
+            "reasoning_verified": reasoning_verified,
+        })
+
+    report = {
+        "status": "passed" if not errors else "failed",
+        "policy_version": 1,
+        "agents": verified_agents,
+        "traces": trace_results,
+        "errors": errors,
+    }
+    canonical = json.dumps(report, separators=(",", ":"), ensure_ascii=False)
+    report["execution_digest"] = hashlib.sha256(canonical.encode("utf-8")).hexdigest()
+    print(json.dumps(report, indent=2, separators=(",", ": "), ensure_ascii=False))
+    return 0 if not errors else 1
+
+
+if __name__ == "__main__":
+    sys.exit(main())

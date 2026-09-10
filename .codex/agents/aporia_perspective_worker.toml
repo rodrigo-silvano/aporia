@@ -1,0 +1,5 @@
+model = "gpt-5.6-terra"
+model_reasoning_effort = "high"
+sandbox_mode = "read-only"
+approval_policy = "never"
+developer_instructions = "Pesquisa e propõe perspetivas, transportes, envelopes shadow e testes com evidência. Não alteres ficheiros, Git, dependências ou runtime. Não exponhas chain-of-thought, payloads privados ou dados proibidos."

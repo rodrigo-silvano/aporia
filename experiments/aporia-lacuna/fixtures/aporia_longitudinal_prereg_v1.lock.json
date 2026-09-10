@@ -1,0 +1,7 @@
+{
+  "protocol_key": "aporia_longitudinal_prereg_v1",
+  "sha256": "58522b40f270b915d7fe25d66ba09ce7903dc7ee1db38315e41e632a1f22e950",
+  "status": "sealed",
+  "changes_after_sealing_allowed": false,
+  "negative_results_retained": true
+}

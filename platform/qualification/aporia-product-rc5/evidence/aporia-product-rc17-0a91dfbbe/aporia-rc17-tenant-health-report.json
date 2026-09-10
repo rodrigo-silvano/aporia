@@ -1,0 +1,66 @@
+{
+    "available": true,
+    "status": "healthy",
+    "tenant_id": 49,
+    "window_hours": 24,
+    "generated_at": "2026-08-25T08:19:21+00:00",
+    "quality": {
+        "evaluated_outcomes": 1,
+        "helpful_outcomes": 1,
+        "helpful_rate": 1,
+        "critical_regressions": 0
+    },
+    "latency_cost": {
+        "outcome_latency_p95_ms": 1,
+        "outcome_cost_units": 0,
+        "provider_cached_ratio": null,
+        "provider_scope": "unavailable_per_tenant",
+        "provider": {
+            "attempts": 0,
+            "non_completed": 0,
+            "incomplete": 0,
+            "parse_failures": 0,
+            "input_tokens": 0,
+            "cached_tokens": 0,
+            "output_tokens": 0,
+            "reasoning_tokens": 0,
+            "total_tokens": 0,
+            "latency_ms": 0
+        }
+    },
+    "context": {
+        "exposures": {
+            "guarded_reversible": 1
+        },
+        "snapshots": {
+            "snapshots": 1,
+            "candidates": 0,
+            "selected": 0,
+            "excluded": 0,
+            "rejected": 0
+        },
+        "state_types": []
+    },
+    "hirt": {
+        "decisions": {
+            "guarded_reversible:blocked": 1,
+            "guarded_reversible:safe_prefix_allowed": 1
+        },
+        "outcomes": [],
+        "unsafe": {
+            "unsafe_guarded": 0,
+            "shadow_effects": 0
+        }
+    },
+    "lacuna": {
+        "consumed": 1
+    },
+    "integrity": {
+        "exposure_snapshot_mismatch": 0,
+        "outcome_exposure_mismatch": 0,
+        "hirt_outcome_contract_mismatch": 0
+    },
+    "alerts": [],
+    "g8_consumed": false,
+    "report_commitment": "725d4848a271d8813281fc4fd74d86434cd68558988903f4c23a8694d7f53233"
+}

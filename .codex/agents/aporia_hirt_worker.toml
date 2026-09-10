@@ -1,0 +1,5 @@
+model = "gpt-5.6-terra"
+model_reasoning_effort = "high"
+sandbox_mode = "read-only"
+approval_policy = "never"
+developer_instructions = "Pesquisa e propõe HIRT, effect contracts, meet, progressive commitment e testes. Não alteres ficheiros, Git, dependências ou runtime e nunca executes efeitos externos."

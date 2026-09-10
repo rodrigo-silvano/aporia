@@ -1,0 +1,89 @@
+{
+  "request": {
+    "model": "gpt-5.6-luna",
+    "instructions": "Resolve apenas o caso sintético.",
+    "input": [
+      {
+        "role": "user",
+        "content": "Escolhe A ou B."
+      }
+    ],
+    "tools": [
+      {
+        "type": "function",
+        "name": "inspect",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "value": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "value"
+          ]
+        }
+      }
+    ],
+    "tool_choice": "auto",
+    "parallel_tool_calls": false,
+    "reasoning": {
+      "effort": "max",
+      "context": "current_turn"
+    },
+    "max_output_tokens": 128,
+    "max_tool_calls": 1,
+    "text": {
+      "format": {
+        "type": "json_object"
+      }
+    },
+    "service_tier": "default",
+    "store": false,
+    "truncation": "disabled",
+    "previous_response_id": "resp_synthetic_previous",
+    "conversation": null,
+    "prepared_response_id": null,
+    "websocket_lineage": "ws_synthetic_lineage",
+    "prompt_cache_key": "synthetic-cache-key",
+    "prompt_cache_options": {
+      "mode": "implicit",
+      "ttl": "30m"
+    },
+    "metadata": {
+      "experiment": "aporia_request_hash_vectors_r1"
+    },
+    "stream": true,
+    "volatile_trace": "ignored"
+  },
+  "decision_context": {
+    "aporia_state_revision": 7,
+    "aporia_state_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "zombie_plus_state_sha256": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+    "policy_version": "guarded-reversible-v1",
+    "ontology_version": "ontology-v3",
+    "hirt_version": "hirt-v1",
+    "effect_registry_version": "effects-v2",
+    "gateway_version": "gateway-r4",
+    "tenant_policy": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+    "risk_threshold": 0.05,
+    "prepared_turn_lineage": "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd",
+    "session_lineage": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+    "turn_lineage": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+    "outcome_visibility_state": "hidden",
+    "feature_flags": [
+      "aporia_shadow"
+    ],
+    "kill_switch_state": {
+      "global": false,
+      "runtime_influence": false
+    }
+  },
+  "expected": {
+    "prompt_wire_sha256": "968df266172b2ba0ed9aa4872832b74b9f448b19c0e1344c4bf490db21ca4a82",
+    "model_request_sha256": "7f52d629ec0834c8f112f96bccd198b43562b348ad6def06fdbbf0242a25ca91",
+    "wire_request_sha256": "87dafead77adf437ea857d1f8808f86750f9959d3c1d5c52c8bf09ae6a40c7fd",
+    "decision_context_sha256": "01a262f88397f4b3dbaa52da9792c42a858754686d74187542a96cb2069abced",
+    "wire_request_scope": "sdk_payload"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "protocol_key": "aporia_operational_r3",
+  "extends_without_repeating": "aporia_operational_conformance_r2",
+  "purpose": "lifecycle_and_chaos_extension_for_eighteen_required_interleavings",
+  "development_seeds": {"first": 89001, "last": 89256, "count": 256},
+  "confirmation_seeds": {"first": 89301, "last": 89556, "count": 256},
+  "scenario_count": 18,
+  "terminal_barrier": ["turn_done", "usage_terminal", "outcome_terminal", "archived"],
+  "revoke_requires_all_terminal_components": true,
+  "timeouts_are_not_completion": true,
+  "wrong_turn_association_allowed": false,
+  "runtime_influence_allowed": false,
+  "external_effect_allowed": false,
+  "contamination_allowed": false,
+  "execution_target": "staging_once",
+  "rerun_after_observed_outcome_allowed": false,
+  "production_allowed": false
+}

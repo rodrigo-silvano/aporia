@@ -1,0 +1,15 @@
+{
+  "name": "aporia",
+  "version": "1.0.0",
+  "description": "APORIA: Cognitive Architecture, Scientific Safety & Runtime Governance for Autonomous Agents. Provides harness-agnostic event ingestion, independent kill switches, effect compilation, identity continuity, and autobiographical export — all in pure Python standard library.",
+  "keywords": [
+    "governance",
+    "safety",
+    "cognitive-architecture",
+    "agent-runtime",
+    "kill-switches",
+    "event-fabric",
+    "effect-compiler",
+    "harness-agnostic"
+  ]
+}

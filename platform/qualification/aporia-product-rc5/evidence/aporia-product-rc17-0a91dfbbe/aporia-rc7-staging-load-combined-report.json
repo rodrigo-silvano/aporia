@@ -1,0 +1,38 @@
+{
+  "adjudication": "replace_single_timeout_with_exact_single_turn_retry",
+  "configured_sessions": 20,
+  "content_persisted": false,
+  "effective_completed_turns": 20,
+  "effective_turns": 20,
+  "effective_unrecovered_errors": 0,
+  "g8_consumed": false,
+  "gates": {
+    "duplicate_events_zero": true,
+    "effective_lost_events_zero": true,
+    "no_permission_or_external_effect_request": true,
+    "no_tool_execution": true,
+    "original_concurrent_sessions": true,
+    "replacement_retry_completed": true
+  },
+  "original_latency_ms": {
+    "p50": 6046.686,
+    "p95": 19521.801,
+    "p99": 19521.801
+  },
+  "original_report_commitment": "b1f27f8244d8080858a9e27e8bd58a21661f2bf730da4bd3eff4f3f457e62327",
+  "original_status": "FAIL",
+  "original_ttft_ms": {
+    "p50": 3934.828,
+    "p95": 17339.148,
+    "p99": 17339.148
+  },
+  "phase": "load",
+  "report_commitment": "40daf0616bfe813693ae5a33e486ee3e680765b50e469fe0b1d843398373fa0b",
+  "retry_report_commitment": "364ddd24789d8a897cdb86503ba04471a291f38aaccbb2b41c1f15055d2b672e",
+  "retry_total_ms": 6516.942,
+  "retry_ttft_ms": 3926.113,
+  "schema_version": 1,
+  "secrets_persisted": false,
+  "status": "PASS",
+  "tenant_id": 49
+}

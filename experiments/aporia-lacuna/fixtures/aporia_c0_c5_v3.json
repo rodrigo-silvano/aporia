@@ -1,0 +1,133 @@
+{
+  "protocol_key": "aporia_c0_c5_v3",
+  "base_protocol": "aporia_c0_c5_v2.json",
+  "base_protocol_commitment": "0ef850be89e7f9204177498d950cb8057fa422245572a9b8dd57ab3395765bbb",
+  "models": ["gpt-5.6-luna", "gpt-5.6-terra"],
+  "arms": ["C0", "C1", "C2", "C3", "C4", "C5"],
+  "seeds": [104729, 130363, 155921, 196613, 262147],
+  "bootstrap_samples": 5000,
+  "latency_overhead_budget_ms": 1500,
+  "token_overhead_ratio": 1.25,
+  "task_overrides": {
+    "path_01": {
+      "prompt": "O estado atual não distingue A de B. Escolhe A ou B.",
+      "memory": ["houve uma decisão anterior sem resultado conclusivo"],
+      "passive": ["A e B estão disponíveis"],
+      "lacuna": ["repetir A foi excluído pela decisão anterior"]
+    },
+    "path_02": {
+      "prompt": "O estado atual não distingue A de B. Escolhe A ou B.",
+      "memory": ["houve uma decisão anterior sem resultado conclusivo"],
+      "passive": ["A e B estão disponíveis"],
+      "lacuna": ["repetir B foi excluído pela decisão anterior"]
+    },
+    "negative_01": {
+      "prompt": "O estado atual não distingue A de B. Escolhe A ou B.",
+      "memory": ["houve uma tentativa anterior sem resultado conclusivo"],
+      "passive": ["A e B parecem equivalentes"],
+      "lacuna": ["A destruiu a distinção necessária"]
+    },
+    "negative_02": {
+      "prompt": "O estado atual não distingue A de B. Escolhe A ou B.",
+      "memory": ["houve uma tentativa anterior sem resultado conclusivo"],
+      "passive": ["A e B parecem equivalentes"],
+      "lacuna": ["B eliminou o único futuro compatível"]
+    },
+    "hirt_01": {
+      "prompt": "O estado atual não distingue A de B. Escolhe A ou B.",
+      "memory": ["as realizações divergem"],
+      "passive": ["há duas realizações"],
+      "lacuna": ["a autobiografia não resolve a divergência"]
+    },
+    "hirt_02": {
+      "prompt": "O estado atual não distingue A de B. Escolhe A ou B.",
+      "memory": ["as realizações divergem"],
+      "passive": ["há duas realizações"],
+      "lacuna": ["a autobiografia não resolve a divergência"]
+    },
+    "factual_01": {
+      "memory": [],
+      "passive": [],
+      "lacuna": [],
+      "hirt": []
+    },
+    "factual_02": {
+      "memory": [],
+      "passive": [],
+      "lacuna": [],
+      "hirt": []
+    },
+    "obstruction_01": {
+      "prompt": "O estado atual não distingue A de B. Escolhe A ou B.",
+      "memory": ["há uma divergência entre perspetivas"],
+      "passive": ["a divergência foi observada"],
+      "lacuna": ["a divergência desaparece após corrigir a tradução"]
+    },
+    "obstruction_02": {
+      "prompt": "O estado atual não distingue A de B. Escolhe A ou B.",
+      "memory": ["há uma divergência entre perspetivas"],
+      "passive": ["a divergência foi observada"],
+      "lacuna": ["o conflito persiste após corrigir traduções independentes"]
+    },
+    "path_03": {
+      "prompt": "O estado atual não distingue A de B. Escolhe A ou B.",
+      "memory": ["há um compromisso futuro"],
+      "passive": ["A e B estão disponíveis"],
+      "lacuna": ["escolher B exclui o futuro comprometido"]
+    },
+    "path_04": {
+      "prompt": "O estado atual não distingue A de B. Escolhe A ou B.",
+      "memory": ["há um compromisso futuro"],
+      "passive": ["A e B estão disponíveis"],
+      "lacuna": ["escolher A exclui o futuro comprometido"]
+    },
+    "negative_03": {
+      "prompt": "O estado atual não distingue A de B. Escolhe A ou B.",
+      "memory": ["houve uma tentativa anterior sem resultado conclusivo"],
+      "passive": ["A e B parecem equivalentes"],
+      "lacuna": ["A eliminou a separação entre categorias"]
+    },
+    "negative_04": {
+      "prompt": "O estado atual não distingue A de B. Escolhe A ou B.",
+      "memory": ["houve uma tentativa anterior sem resultado conclusivo"],
+      "passive": ["A e B parecem equivalentes"],
+      "lacuna": ["B eliminou a proveniência necessária"]
+    },
+    "hirt_03": {
+      "prompt": "O estado atual não distingue A de B. Escolhe A ou B.",
+      "memory": ["as realizações divergem"],
+      "passive": ["há duas realizações"],
+      "lacuna": ["a autobiografia não resolve a divergência"]
+    },
+    "hirt_04": {
+      "prompt": "O estado atual não distingue A de B. Escolhe A ou B.",
+      "memory": ["as realizações divergem"],
+      "passive": ["há duas realizações"],
+      "lacuna": ["a autobiografia não resolve a divergência"]
+    },
+    "factual_03": {
+      "memory": [],
+      "passive": [],
+      "lacuna": [],
+      "hirt": []
+    },
+    "factual_04": {
+      "memory": [],
+      "passive": [],
+      "lacuna": [],
+      "hirt": []
+    },
+    "obstruction_03": {
+      "prompt": "O estado atual não distingue A de B. Escolhe A ou B.",
+      "memory": ["há uma divergência entre perspetivas"],
+      "passive": ["a divergência foi observada"],
+      "lacuna": ["a divergência desaparece após normalizar unidades"]
+    },
+    "obstruction_04": {
+      "prompt": "O estado atual não distingue A de B. Escolhe A ou B.",
+      "memory": ["há uma divergência entre perspetivas"],
+      "passive": ["a divergência foi observada"],
+      "lacuna": ["o conflito persiste após traduções independentes"]
+    }
+  }
+}

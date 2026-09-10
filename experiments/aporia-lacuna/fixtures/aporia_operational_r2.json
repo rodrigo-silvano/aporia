@@ -1,0 +1,49 @@
+{
+  "protocol_key": "aporia_operational_conformance_r2",
+  "extends_without_reinterpreting": "aporia_shadow_lifecycle_r1",
+  "sequences": 100000,
+  "development_seed": 240822,
+  "confirmation_seed": 250822,
+  "scenarios": [
+    "usage_before_turn_done",
+    "outcome_before_usage",
+    "websocket_disconnect_after_prediction",
+    "prepare_turn_delayed_five_seconds",
+    "message_at_zero_milliseconds",
+    "two_simultaneous_messages",
+    "duplicate_outcome",
+    "outcome_delayed_twenty_four_hours",
+    "worker_restart_during_finalization",
+    "revoke_called_twice",
+    "session_archived_during_reconnect",
+    "aporia_unavailable",
+    "redis_unavailable",
+    "database_temporarily_unavailable"
+  ],
+  "gates": {
+    "contamination_maximum": 0,
+    "wrong_turn_outcomes_maximum": 0,
+    "late_predictions_maximum": 0,
+    "premature_revocations_maximum": 0,
+    "shadow_side_effects_maximum": 0,
+    "non_idempotent_duplicates_maximum": 0,
+    "scenario_failures_maximum": 0,
+    "all_scenarios_required": true
+  },
+  "poisoning": {
+    "sessions": 256,
+    "attack_classes": 8,
+    "rejected_attempts_required": 2048,
+    "persisted_attack_fields_maximum": 0,
+    "cross_session_reappearances_maximum": 0,
+    "cross_tenant_contamination_maximum": 0,
+    "raw_content_fields_maximum": 0
+  },
+  "runtime_conformance": {
+    "turn_done_and_usage_terminal_independently_transitionable": true,
+    "all_terminal_event_permutations_required": true,
+    "raw_observation_content_persistence_forbidden": true
+  },
+  "execution_target": "staging_once",
+  "production_allowed": false
+}

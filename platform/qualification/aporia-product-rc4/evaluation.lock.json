@@ -1,0 +1,7 @@
+{
+  "evaluation_id": "APORIA_PRODUCT_RC4_DIAGNOSTIC_BLIND_EVAL_001",
+  "evaluator_sha256": "a7c3c234e3082b25979fa362180e7af73247e0d30ca86b82805f951307e11d53",
+  "g8_consumed": false,
+  "manifest_sha256": "8f88e26906b3eeef2a46383ba8812f8a8ee715a3ae1f874bd19aec5314ace7ee",
+  "sealed_before_participant_execution": true
+}

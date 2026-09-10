@@ -1,0 +1,34 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caching & Virtual Environments
+.cache/
+venv/
+.venv/
+env/
+
+# Environment Variables & Secrets
+.env
+*.env.local
+
+# SQLite / Local Databases
+*.sqlite
+*.sqlite3
+*.db
+
+# macOS System Files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDEs & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary & Log files
+*.log
+tmp/

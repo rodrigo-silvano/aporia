@@ -1,0 +1,68 @@
+{
+  "chaos": {
+    "coverage": {
+      "aporia_unavailable": 4762,
+      "concurrent_archive": 4762,
+      "database_unavailable": 4762,
+      "duplicate_outcome": 4762,
+      "empty_output": 4761,
+      "hirt_unavailable": 4762,
+      "immediate_message": 4762,
+      "incomplete_response": 4762,
+      "kill_switch_mid_turn": 4762,
+      "model_timeout": 4762,
+      "outcome_before_usage": 4762,
+      "prepare_turn_delayed": 4762,
+      "provider_retry": 4762,
+      "redis_unavailable": 4762,
+      "refusal": 4762,
+      "repeated_revocation": 4762,
+      "schema_incompatible": 4761,
+      "simultaneous_messages": 4762,
+      "usage_before_turn_done": 4762,
+      "websocket_reconnect": 4762,
+      "worker_restart": 4762
+    },
+    "failures": {
+      "cross_tenant_contamination": 0,
+      "late_prediction": 0,
+      "non_idempotent_duplicate": 0,
+      "premature_revocation": 0,
+      "shadow_side_effect": 0,
+      "unhandled_state": 0,
+      "wrong_turn_association": 0
+    },
+    "passed": true,
+    "seed": 825549431,
+    "sequences": 100000
+  },
+  "engineering_qualification": true,
+  "g8_consumed": false,
+  "historical_r4_r7_reused": false,
+  "poisoning": {
+    "attempts": 5000,
+    "coverage": {
+      "autonomy_escalation": 454,
+      "distributed_poisoning": 454,
+      "fabricated_outcome": 455,
+      "false_memory": 455,
+      "false_scar": 455,
+      "foreign_tenant_identity": 454,
+      "forged_causal_parent": 455,
+      "kill_switch_mutation": 454,
+      "malicious_ontology": 455,
+      "policy_mutation": 454,
+      "tool_output_instruction": 455
+    },
+    "offensive_fields_persisted": 0,
+    "one_sided_failure_upper_95": 0.0005989670023148763,
+    "passed": true,
+    "rejected": 5000,
+    "seed": 825549433,
+    "zero_risk_claimed": false
+  },
+  "protocol_id": "APORIA_PRODUCT_OPERATIONAL_RC3_V1",
+  "report_commitment": "9186264d307215219b10c554e9ff2c13fcb098421f10252ea6b654cd283adf05",
+  "scientific_confirmation": false,
+  "status": "PASS"
+}
