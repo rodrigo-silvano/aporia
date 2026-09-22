@@ -233,6 +233,10 @@ OK (skipped=2)
 
 ---
 
+## Author
+
+Created and maintained by [Rodrigo Silvano](https://rodrigosilvano.pt).
+
 ## License
 
 Distributed under the MIT License. See [LICENSE](LICENSE) for details.
